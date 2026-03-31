@@ -1,0 +1,517 @@
+[
+  {
+    "id": 1,
+    "title": "Alpine Ops Trials",
+    "slug": "alpine-ops-trials",
+    "category": "Field Program",
+    "summary": "Trials for Mt Kanamo and Mt CCKN",
+    "highlights": [
+      "Selection for Mt. Kanamo & Mt. CCKN Expedition",
+      "Military-Led Trials to Test Grit & Capability",
+      "Structured Assessment for Peak Expedition Readiness"
+    ],
+    "location": "Dehradun",
+    "date": "25th to 26st Apr 2026",
+    "duration": "2 Days",
+    "status": "Open",
+    "image": "/assets/images/programs/trialEvent1.png",
+    "gallery": [
+      "/assets/images/programs/trialEvent1.png",
+      "/assets/images/programs/trialEvent2.png"
+    ],
+    "detail": {
+      "eyebrow": "Applied Military Preparation",
+      "expectTitle": "What to expect",
+      "snapshotTitle": "Program details",
+      "snapshot": [
+        "2-Day Selection Trial Focused on Endurance & Technical Competence",
+        "Trial Fee Fully Adjustable Against Expedition Fees Upon Selection"
+      ],
+      "snapshotChips": [],
+      "factLabels": {
+        "location": "Location",
+        "date": "Date",
+        "duration": "Duration"
+      },
+      "quickFacts": [
+        {
+          "icon": "duration",
+          "label": "Duration",
+          "value": "01 Nights 02 Days"
+        },
+        {
+          "icon": "tourType",
+          "label": "Tour Type",
+          "value": "Trial Camp"
+        },
+        {
+          "icon": "groupSize",
+          "label": "Group Size",
+          "value": "15 max"
+        },
+        {
+          "icon": "tourGuide",
+          "label": "Mentor",
+          "value": "2 Lead"
+        }
+      ],
+      "primaryCtaLabel": "Enquire on WhatsApp",
+      "primaryCtaUrl": "https://wa.me/917819983273",
+      "footerNote": "Places are limited and filled on a first-come basis.",
+      "footerCtaLabel": "Contact us for availability",
+      "footerCtaUrl": "https://wa.me/917819983273",
+      "showStay": false,
+      "stay": {
+        "title": "Stay & Accommodation",
+        "summary": "Participants stay in shared expedition-style accommodation close to the training zone, with practical amenities and a secure kit area.",
+        "highlights": [
+          "Shared rooms with bedding and basic heating",
+          "Hygienic washroom access and changing area",
+          "Hot meals and hydration support during training hours"
+        ],
+        "images": [
+          "/assets/images/main6.jpg",
+          "/assets/images/main5.jpg",
+          "/assets/images/main7.jpg",
+          "/assets/images/main7.jpg"
+        ]
+      },
+      "showTrainingPlan": false,
+      "trainingPlan": {
+        "title": "Day-by-Day Training Plan",
+        "days": [
+          {
+            "day": "Day 1",
+            "heading": "Arrival, kit checks, and acclimatization",
+            "items": [
+              "Check-in, safety briefing, and camp orientation",
+              "Mobility reset and light terrain conditioning",
+              "Night routine and cold-weather prep"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "heading": "Mountain movement and endurance load",
+            "items": [
+              "Ascend/descend movement drills",
+              "Load carriage intervals and pacing control",
+              "Map familiarization and route planning"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "heading": "Navigation, recon, and team tasks",
+            "items": [
+              "Terrain navigation in small teams",
+              "Observation and silent movement exercises",
+              "After-action review and correction loop"
+            ]
+          },
+          {
+            "day": "Day 4",
+            "heading": "Fieldcraft and survival systems",
+            "items": [
+              "Shelter setup and heat-management protocol",
+              "Water sourcing, ration discipline, and efficiency drills",
+              "Night navigation under fatigue"
+            ]
+          },
+          {
+            "day": "Day 5",
+            "heading": "Final mission simulation and graduation",
+            "items": [
+              "Scenario-based mission combining all modules",
+              "Leadership rotations and team decision-making",
+              "Debrief, personal feedback, and closeout"
+            ]
+          }
+        ]
+      },
+      "showInclusionsExclusions": false,
+      "inclusionsExclusions": {
+        "title": "Inclusions & Exclusions",
+        "inclusionsTitle": "Inclusions",
+        "exclusionsTitle": "Exclusions",
+        "inclusions": [
+          "Instructor-led training sessions",
+          "Shared accommodation",
+          "Meals during training schedule",
+          "Basic safety and training support",
+          "Program completion certificate"
+        ],
+        "exclusions": [
+          "Travel to and from base location",
+          "Personal clothing and specialized gear",
+          "Personal insurance and medical costs",
+          "Extra snacks and personal purchases",
+          "Optional add-on activities"
+        ]
+      },
+      "showJoinCriteria": true,
+      "joinCriteria": {
+        "whoCanJoinTitle": "Selection criteria for Mt Kanamo",
+        "whoCanJoin": [
+          "6 KM vertical hike with 10kg ruck (Time: 5 hours)",
+          "Written test",
+          "30 sit-ups",
+          "6 chin-ups",
+          "25 push-ups"
+        ],
+        "whoShouldJoinTitle": "Selection criteria for Mt CCKN",
+        "whoShouldJoin": [
+          "6 KM vertical hike with 10kg ruck (Time: 5 hours)",
+          "Written test",
+          "30 sit-ups",
+          "6 chin-ups",
+          "25 push-ups",
+          "Basic knots and hitches",
+          "Basic knowledge of technical gear"
+        ]
+      }
+    }
+  },
+  {
+    "id": 2,
+    "title": "Mt Kanamo Expedition",
+    "slug": "mt-kanamo-expedition",
+    "category": "Field Program",
+    "summary": "Alpine style, Self sufficient expedition",
+    "highlights": [
+      "Trekking peak of 5900M",
+      "Operate like a small team",
+      "Disciplined, Efficient and Minimalistic"
+    ],
+    "location": "Spiti Valley",
+    "date": "13th to 20th June 2026",
+    "duration": "8 Days",
+    "status": "Open",
+    "image": "/assets/images/programs/kanamo.jpg",
+    "gallery": [
+      "/assets/images/programs/kanamo.jpg",
+      "/assets/images/programs/kanamo-2.jpg",
+      "/assets/images/programs/kanamo-1.jpg"
+    ],
+    "detail": {
+      "eyebrow": "Urban Operations Readiness",
+      "expectTitle": "What to expect",
+      "snapshotTitle": "Program details",
+      "snapshot": "Ready to break the 19,000 ft barrier? Kanamo peak is the ultimate high altitude challenge. No technical gear, just pure Grit, Thin air and best views in Spiti.",
+      "snapshotChips": [
+        "19,000 FT",
+        "Alpine style",
+        "High altitude trek",
+        "zero technical skills required"
+      ],
+      "factLabels": {
+        "location": "Location",
+        "date": "Date",
+        "duration": "Duration"
+      },
+      "quickFacts": [
+        {
+          "icon": "duration",
+          "label": "Duration",
+          "value": "07 Nights 08 Days"
+        },
+        {
+          "icon": "tourType",
+          "label": "From",
+          "value": "Kaza-Kaza"
+        },
+        {
+          "icon": "groupSize",
+          "label": "Group Size",
+          "value": "5-15"
+        },
+        {
+          "icon": "tourGuide",
+          "label": "Mentor",
+          "value": "2"
+        }
+      ],
+      "showPricing": true,
+      "pricing": {
+        "title": "Pricing",
+        "items": [{ "label": "Program Fee", "value": "INR 20,999" }],
+        "note": "Excludes personal clothing and all travel to and from Kaza."
+      },
+      "primaryCtaLabel": "Enquire on WhatsApp",
+      "primaryCtaUrl": "https://wa.me/917819983273",
+      "footerNote": "Early interest gives priority access when registrations open.",
+      "footerCtaLabel": "Message us for launch details",
+      "footerCtaUrl": "https://wa.me/917819983273",
+      "stay": {
+        "title": "Stay & Accommodation",
+        "summary": "Urban program accommodation is arranged in partner facilities with quick access to training locations and essential recovery support.",
+        "highlights": [
+          "Twin-share rooms in city training base",
+          "Early breakfast and evening meal options",
+          "Dedicated briefing area for daily debriefs"
+        ],
+        "images": [
+          "/assets/images/main4.jpg",
+          "/assets/images/main3.jpg",
+          "/assets/images/main2.jpg"
+        ]
+      },
+      "trainingPlan": {
+        "title": "Day-by-Day Training Plan",
+        "days": [
+          {
+            "day": "Day 1",
+            "heading": "Induction and baseline assessment",
+            "items": [
+              "Arrival, rules of engagement, and safety setup",
+              "Urban movement baseline and reaction drills",
+              "Evening debrief and team assignments"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "heading": "CQB fundamentals and space control",
+            "items": [
+              "Room-entry mechanics and communication calls",
+              "Corridor movement and corner discipline",
+              "Timed close-quarters scenarios"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "heading": "Navigation, extraction, and pressure tasks",
+            "items": [
+              "Urban route planning and contingency setup",
+              "Casualty extraction and carry drills",
+              "Decision-making under fatigue"
+            ]
+          },
+          {
+            "day": "Day 4",
+            "heading": "Integrated scenario day",
+            "items": [
+              "Multi-stage mission using prior modules",
+              "Team leadership rotations",
+              "Performance review and development plan"
+            ]
+          }
+        ]
+      },
+      "inclusionsExclusions": {
+        "title": "Inclusions & Exclusions",
+        "inclusionsTitle": "Inclusions",
+        "exclusionsTitle": "Exclusions",
+        "inclusions": [
+          "Urban tactical training blocks",
+          "Partner accommodation arrangement",
+          "Daily briefing and debrief support",
+          "Structured drills and assessment",
+          "Priority update access for next batch"
+        ],
+        "exclusions": [
+          "Transport within or to the city",
+          "Personal tactical kit purchases",
+          "Meals beyond scheduled program meals",
+          "Medical and travel insurance",
+          "Private one-to-one coaching add-ons"
+        ]
+      },
+      "showJoinCriteria": true,
+      "joinCriteria": {
+        "whoCanJoinTitle": "Itinerary (8 Days - Kaza to Kaza)",
+        "whoCanJoin": [
+          "Day 1: Arrival Kaza",
+          "Day 2: Acclimatization Day",
+          "Day 3: Kaza to Kibber",
+          "Day 4: Establish Base Camp",
+          "Day 5: Summit and return to Base Camp",
+          "Day 6: Reserve Summit Day",
+          "Day 7: Return to Kaza",
+          "Day 8: Departure"
+        ],
+        "whoShouldJoinTitle": "Who Should Join",
+        "whoShouldJoin": [
+          "Aspiring Mountaineers Preparing for BMC and High-Altitude Objectives",
+          "Those Seeking Hands-On Alpine Exposure in Real Conditions",
+          "Individuals Training to Perform and Decide Under Fatigue and Pressure"
+        ]
+      }
+    }
+  },
+  {
+    "id": 3,
+    "title": "Mt CCKN Expedition",
+    "slug": "mt-cckn-expedition",
+    "category": "Field Program",
+    "summary": "Operate alpine-style with complete independence",
+    "highlights": [
+      "Technical peak of 6300M",
+      "World class climbing equipments and safety systems",
+      "Small focussed team for serious climbers",
+      "A Genuine Himalayan expedition environment"
+    ],
+    "location": "Spiti Valley",
+    "date": "25th June to 6th July 2026",
+    "duration": "12 Days",
+    "status": "Open",
+    "image": "/assets/images/programs/cckn.jpg",
+    "gallery": [
+      "/assets/images/programs/cckn.jpg",
+      "/assets/images/programs/cckn-1.jpg",
+      "/assets/images/programs/cckn-2.jpg",
+      "/assets/images/programs/cckn-3.jpg",
+      "/assets/images/programs/cckn-4.jpg",
+      "/assets/images/programs/cckn-5.jpg"
+    ],
+    "detail": {
+      "eyebrow": "Urban Operations Readiness",
+      "expectTitle": "What to expect",
+      "snapshotTitle": "Program snapshot",
+      "snapshot": "Rising above the stark cold desert of Spiti, Mount Chau Chau Kang Nilda (6300m) is one of the most striking peaks dominating the skyline near Kaza. The mountain was first climbed in 1939 by a British expedition led by Major J.O.M. Roberts, and since then it has attracted mountaineers from across the world seeking a serious yet achievable Himalayan expedition peak. CCKN is known for its long glacier approaches, crevassed terrain, and steep snow slopes near the summit ridge, demanding endurance, sound mountain judgement, and the ability to move efficiently at high altitude. The climb is a true expedition experience, not a simple trekking objective. From 25 June to 06 July, Alpine Ops will attempt this iconic Spitian summit in a tightly managed expedition starting and ending in Kaza.",
+      "snapshotChips": [
+        "BMC Required",
+        "6300M",
+        "Alpine style",
+        "Military led",
+        "Spitian summit",
+        "Technical Peak"
+      ],
+      "factLabels": {
+        "location": "Location",
+        "date": "Date",
+        "duration": "Duration"
+      },
+      "quickFacts": [
+        {
+          "icon": "duration",
+          "label": "Duration",
+          "value": "11 Nights 12 Days"
+        },
+        {
+          "icon": "tourType",
+          "label": "Tour Type",
+          "value": "Technical Expedition"
+        },
+        {
+          "icon": "groupSize",
+          "label": "Group Size",
+          "value": "2-5"
+        },
+        {
+          "icon": "tourGuide",
+          "label": "Mentor",
+          "value": "2"
+        }
+      ],
+      "showPricing": true,
+      "pricing": {
+        "title": "Pricing",
+        "items": [{ "label": "Program Fee", "value": "INR 49,999" }],
+        "note": "Excludes personal clothing and all travel to and from Kaza."
+      },
+      "primaryCtaLabel": "Enquire on WhatsApp",
+      "primaryCtaUrl": "https://wa.me/917819983273",
+      "footerNote": "Early interest gives priority access when registrations open.",
+      "footerCtaLabel": "Message us for launch details",
+      "footerCtaUrl": "https://wa.me/917819983273",
+      "stay": {
+        "title": "Stay & Accommodation",
+        "summary": "Urban program accommodation is arranged in partner facilities with quick access to training locations and essential recovery support.",
+        "highlights": [
+          "Twin-share rooms in city training base",
+          "Early breakfast and evening meal options",
+          "Dedicated briefing area for daily debriefs"
+        ],
+        "images": [
+          "/assets/images/main4.jpg",
+          "/assets/images/main3.jpg",
+          "/assets/images/main2.jpg"
+        ]
+      },
+      "trainingPlan": {
+        "title": "Day-by-Day Training Plan",
+        "days": [
+          {
+            "day": "Day 1",
+            "heading": "Induction and baseline assessment",
+            "items": [
+              "Arrival, rules of engagement, and safety setup",
+              "Urban movement baseline and reaction drills",
+              "Evening debrief and team assignments"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "heading": "CQB fundamentals and space control",
+            "items": [
+              "Room-entry mechanics and communication calls",
+              "Corridor movement and corner discipline",
+              "Timed close-quarters scenarios"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "heading": "Navigation, extraction, and pressure tasks",
+            "items": [
+              "Urban route planning and contingency setup",
+              "Casualty extraction and carry drills",
+              "Decision-making under fatigue"
+            ]
+          },
+          {
+            "day": "Day 4",
+            "heading": "Integrated scenario day",
+            "items": [
+              "Multi-stage mission using prior modules",
+              "Team leadership rotations",
+              "Performance review and development plan"
+            ]
+          }
+        ]
+      },
+      "inclusionsExclusions": {
+        "title": "Inclusions & Exclusions",
+        "inclusionsTitle": "Inclusions",
+        "exclusionsTitle": "Exclusions",
+        "inclusions": [
+          "Urban tactical training blocks",
+          "Partner accommodation arrangement",
+          "Daily briefing and debrief support",
+          "Structured drills and assessment",
+          "Priority update access for next batch"
+        ],
+        "exclusions": [
+          "Transport within or to the city",
+          "Personal tactical kit purchases",
+          "Meals beyond scheduled program meals",
+          "Medical and travel insurance",
+          "Private one-to-one coaching add-ons"
+        ]
+      },
+      "showJoinCriteria": true,
+      "joinCriteria": {
+        "whoCanJoinTitle": "Itinerary (12 Days - Kaza to Kaza)",
+        "whoCanJoin": [
+          "Day 1: Arrival Kaza",
+          "Day 2: Acclimatization & Training",
+          "Day 3: Acclimatization & Training",
+          "Day 4: Establishment of Advanced Camp",
+          "Day 5: Acclimatization & Training",
+          "Day 6: Establishment of Base Camp",
+          "Day 7: Establishment of Summit Camp",
+          "Day 8: Summit Day",
+          "Day 9: Reserve Summit Day",
+          "Day 10: Closure of Base Camp",
+          "Day 11: Return to Kaza",
+          "Day 12: Departure"
+        ],
+        "whoShouldJoinTitle": "Who Should Join",
+        "whoShouldJoin": [
+          "Certified Climbers (BMC / AMC / SAR) Seeking Advanced High-Altitude Experience",
+          "Mountaineers Preparing for Technical and Multi-Camp Expeditions",
+          "Individuals Ready for Alpine-Style, Self-Sufficient Expeditions",
+          "Participants Looking to Strengthen Decision-Making in Extreme Conditions",
+          "Those Aiming to Operate Effectively in Small, Disciplined Teams"
+        ]
+      }
+    }
+  }
+]

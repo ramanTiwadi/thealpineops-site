@@ -1,0 +1,157 @@
+{
+  "programs": [
+    {
+      "id": 1,
+      "label": "Foundations",
+      "title": "Breaking the Comfort Mindset to Self Management",
+      "tagline": "Entry-level outdoor conditioning for people stepping into the mountain environment for the first time.",
+      "duration": "3 Days",
+      "difficulty": "Level 1 · Entry",
+      "entryStandard": "Basic fitness required. Ability to walk 4-6 km with a light pack. No prior trekking experience needed. Higher BMI is acceptable if functional fitness is adequate.",
+      "summary": "Foundations is the entry point into the Mountain Pro system. It introduces participants to an outdoor operating mindset and gradually removes psychological dependency on comfort.",
+      "outcome": "Develop self-management, outdoor confidence, and the first layer of four-dimensional fitness.",
+      "trainingObjectives": [
+        "Psychological conditioning for the outdoors",
+        "Self-management in natural environments",
+        "Understanding physical, mental, social, and spiritual fitness"
+      ],
+      "chat": [
+        {
+          "speaker": "System",
+          "tone": "accent",
+          "text": "Mountain Pro Foundations is the entry level of the progression."
+        },
+        {
+          "speaker": "Mentor",
+          "text": "The program introduces participants to the mountain environment as a structured training ground rather than a recreational setting."
+        },
+        {
+          "speaker": "Trainee",
+          "tone": "muted",
+          "text": "The initial benchmark is not distance alone, but the ability to manage effort, discomfort, and self-reliance in outdoor conditions."
+        },
+        {
+          "speaker": "Mentor",
+          "text": "Key outcomes include composure, movement discipline, and confidence while functioning in natural terrain."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Practitioner",
+      "title": "From Individual Capability to Team Efficiency",
+      "tagline": "A team-oriented mountain program that builds endurance, reliability, and coordinated movement in uneven terrain.",
+      "duration": "5 Days",
+      "difficulty": "Level 2 · Intermediate",
+      "entryStandard": "Ability to cover 8-10 km in 2-3 hours with an 8-10 kg ruck and move continuously on uneven terrain with short recovery breaks.",
+      "summary": "At this level the difficulty increases and the emphasis shifts from self-management to operating effectively as part of a team in the mountains.",
+      "outcome": "Build endurance, team discipline, and decision-making under physical stress.",
+      "trainingObjectives": [
+        "Advanced mountain movement and endurance",
+        "Team coordination and responsibility",
+        "Decision-making under physical stress"
+      ],
+      "chat": [
+        {
+          "speaker": "System",
+          "tone": "accent",
+          "text": "Mountain Pro Practitioner develops capability beyond the individual level."
+        },
+        {
+          "speaker": "Mentor",
+          "text": "At this stage, individual fitness must translate into team efficiency, coordination, and shared reliability."
+        },
+        {
+          "speaker": "Trainee",
+          "tone": "muted",
+          "text": "Participants are expected to maintain pace, communication quality, and sound decision-making as physical stress increases."
+        },
+        {
+          "speaker": "Mentor",
+          "text": "Longer movements and more demanding terrain are used to assess whether participants can contribute effectively under pressure without disrupting team rhythm."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "label": "High Altitude Operations",
+      "title": "Leadership and Operating in Harsh Mountain Environments",
+      "tagline": "Built for participants preparing to function and lead when reduced oxygen, fatigue, and harsh weather reshape the fight.",
+      "duration": "8 Days",
+      "difficulty": "Level 3 · Advanced",
+      "entryStandard": "Ability to sustain 10-15 km over 4-6 hours with a 10-15 kg load. Resting HR recovery should normalize within 2-3 minutes after moderate exertion. Prior trekking experience recommended.",
+      "summary": "This stage introduces participants to the challenges of high altitude environments where reduced oxygen, harsh weather, and fatigue become major factors.",
+      "outcome": "Operate efficiently and lead small teams under physical and environmental stress. Also highly recommended for BMC aspirants.",
+      "trainingObjectives": [
+        "Leadership in small teams",
+        "High altitude adaptation and movement",
+        "Operational decision-making in harsh conditions",
+        "Basic mountaineering skills",
+        "Outdoor survival capsule"
+      ],
+      "chat": [
+        {
+          "speaker": "System",
+          "tone": "accent",
+          "text": "High Altitude Operations is designed for harsh, oxygen-limited mountain environments."
+        },
+        {
+          "speaker": "Mentor",
+          "text": "At altitude, reduced oxygen, slower recovery, and environmental exposure all influence movement and judgement at the same time."
+        },
+        {
+          "speaker": "Trainee",
+          "tone": "muted",
+          "text": "The program therefore emphasizes movement control, environmental awareness, and leadership under sustained physical stress."
+        },
+        {
+          "speaker": "Mentor",
+          "text": "This level prepares participants to remain capable when weather, terrain, and fatigue significantly reduce operational margin."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "label": "Alpine Operator",
+      "title": "Complete Mountain Capability",
+      "tagline": "The highest level of Mountain Pro, built for serious terrain, technical mountaineering exposure, and leadership with full ownership.",
+      "duration": "10 Days",
+      "difficulty": "Level 4 · Expert",
+      "entryStandard": "Ability to operate 6-8 hours daily for multiple days carrying 15-20 kg, including steep ascents, with consistent recovery and performance. Strong trekking background and excellent physical fitness required.",
+      "summary": "This is the highest level of the Mountain Pro system. Participants are introduced to technical mountaineering equipment and alpine-style operations where complete self-reliance is expected.",
+      "outcome": "Develop alpine self-sufficiency, technical competence, and leadership in serious mountain terrain. Also highly recommended for AMC aspirants.",
+      "trainingObjectives": [
+        "Complete alpine self-sufficiency",
+        "Operational planning and leadership",
+        "Technical mountaineering skills",
+        "Absolute accountability and ownership"
+      ],
+      "chat": [
+        {
+          "speaker": "System",
+          "tone": "accent",
+          "text": "Alpine Operator is the highest level in the Mountain Pro system."
+        },
+        {
+          "speaker": "Mentor",
+          "text": "The focus shifts from participation to complete competence, ownership, and the ability to operate with technical intent."
+        },
+        {
+          "speaker": "Trainee",
+          "tone": "muted",
+          "text": "Participants are expected to plan, lead, and remain accountable while operating in serious mountain terrain."
+        },
+        {
+          "speaker": "Mentor",
+          "text": "Alpine Operator brings self-reliance, technical mountaineering skill, and leadership together as one complete capability system."
+        }
+      ]
+    }
+  ],
+  "mentorshipPoints": [
+    "Mentorship treks bridge the gap between learning isolated skills and building real mountain capability.",
+    "Climbs are conducted in true alpine style: lean, efficient, and focused on judgement, responsibility, and self-reliance.",
+    "Participants take on roles, make calls, and operate in real environments while being observed, corrected, and refined.",
+    "Over time this process builds confidence to lead, composure under pressure, and instinct for risk assessment."
+  ]
+}

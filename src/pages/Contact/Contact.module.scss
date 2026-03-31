@@ -1,0 +1,157 @@
+@use "../../styles/mixins" as *;
+
+.contact {
+  display: grid;
+  gap: 2.5rem;
+  padding: clamp(20px, 4vw, 40px);
+  width: 100%;
+  margin: 0;
+
+  @media (min-width: 1440px) {
+    padding: 100px;
+  }
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  h1 {
+    font-size: 2.6rem;
+    max-width: 560px;
+  }
+}
+
+.details {
+  display: grid;
+  gap: 1rem;
+
+  span {
+    display: block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 0.35rem;
+  }
+
+  a,
+  p {
+    margin: 0;
+    font-weight: 500;
+  }
+
+  a[href*="google.com/maps"] {
+    display: inline-flex;
+    margin-top: 0.45rem;
+    color: #e9d7ac;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.78rem;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(233, 215, 172, 0.65);
+    width: fit-content;
+    transition:
+      color 0.2s ease,
+      border-color 0.2s ease;
+
+    &:hover {
+      color: #f7e7c5;
+      border-color: #f7e7c5;
+    }
+  }
+}
+
+.form {
+  background: #11171c;
+  border-radius: 28px;
+  padding: 2.5rem;
+  display: grid;
+  gap: 1.5rem;
+  box-shadow: 0 25px 60px rgba(4, 9, 7, 0.35);
+
+  label {
+    display: grid;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(6, 10, 12, 0.7);
+    color: #f7f3ef;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    transition:
+      border 0.2s ease,
+      box-shadow 0.2s ease;
+
+    &:focus {
+      outline: none;
+      border-color: rgba(197, 162, 92, 0.6);
+      box-shadow: 0 0 0 3px rgba(197, 162, 92, 0.15);
+    }
+  }
+
+  button {
+    justify-self: start;
+    padding: 0.85rem 1.8rem;
+    border-radius: 999px;
+    background: #f5f1e7;
+    color: #0e1411;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    border: none;
+    cursor: pointer;
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 12px 22px rgba(10, 12, 10, 0.2);
+    }
+  }
+}
+
+.fieldRow {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.note {
+  margin: 0;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+@include respond(lg) {
+  .contact {
+    grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .fieldRow {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@include respond(md) {
+  .contact {
+    padding: clamp(20px, 4vw, 40px);
+  }
+
+  .form {
+    padding: 2rem;
+  }
+}

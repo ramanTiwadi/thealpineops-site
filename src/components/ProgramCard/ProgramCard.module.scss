@@ -1,0 +1,148 @@
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+.programCard {
+  display: grid;
+  grid-template-columns: minmax(220px, 320px) 1fr;
+  gap: 2rem;
+  border-radius: 24px;
+  background: $bg-card;
+  padding: 1.75rem;
+  color: $text-main;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+
+  @include respond(md) {
+    grid-template-columns: 1fr;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+  }
+
+  .status {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: $bg-card;
+  }
+
+  .status--open {
+    color: rgba(77, 180, 124, 0.92);
+  }
+
+  .status--coming-soon {
+    color: rgba(198, 161, 91, 0.9);
+  }
+
+  .status--closed {
+    color: rgba(210, 78, 78, 0.92);
+  }
+
+  .media {
+    position: relative;
+    border-radius: 18px;
+    min-height: 220px;
+    background: $bg-card;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        180deg,
+        rgba(9, 10, 12, 0.15),
+        rgba(9, 10, 12, 0.8)
+      );
+    }
+  }
+
+  .category {
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    z-index: 1;
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    background: rgba(198, 161, 91, 0.9);
+    color: $bg-card;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .summary {
+    color: $text-muted;
+    margin-bottom: 1rem;
+  }
+
+  .highlights {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem;
+    display: grid;
+    gap: 0.5rem;
+
+    li {
+      position: relative;
+      padding-left: 1.5rem;
+      color: $text-main;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.45rem;
+        width: 0.7rem;
+        height: 0.7rem;
+        border-radius: 50%;
+        background: $accent;
+        box-shadow: 0 0 0 3px rgba(198, 161, 91, 0.2);
+      }
+    }
+  }
+
+  .meta {
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 0.8rem;
+    color: $text-muted;
+    margin-bottom: 1.25rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 1.1rem;
+    border-radius: 999px;
+    background: transparent;
+    border: 1px solid $accent;
+    color: $accent;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    transition:
+      background $transition,
+      color $transition;
+
+    &:hover {
+      background: rgba(198, 161, 91, 0.12);
+    }
+  }
+}

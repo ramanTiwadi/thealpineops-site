@@ -1,0 +1,88 @@
+@use "../../styles/mixins" as *;
+
+.blogs {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+  padding: clamp(5rem, 8vw, 7rem) 1.25rem 3rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.blogsHero {
+  display: grid;
+  gap: 0.75rem;
+
+  h1 {
+    margin: 0;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+  }
+
+  p {
+    margin: 0;
+    max-width: 720px;
+    color: var(--muted);
+  }
+}
+
+.blogsKicker {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.blogsGrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.blogCard {
+  background: linear-gradient(165deg, rgba(19, 24, 29, 0.95), rgba(9, 13, 16, 0.95));
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 1rem;
+  display: grid;
+  gap: 0.8rem;
+
+  h2 {
+    margin: 0;
+    font-size: 1.15rem;
+    line-height: 1.25;
+  }
+
+  p {
+    margin: 0;
+    color: var(--muted);
+  }
+
+  button {
+    justify-self: start;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    background: transparent;
+    color: var(--text);
+    border-radius: 999px;
+    padding: 0.45rem 0.95rem;
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    opacity: 0.55;
+    cursor: not-allowed;
+  }
+}
+
+.blogMeta {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+@include respond(md) {
+  .blogsGrid {
+    grid-template-columns: 1fr;
+  }
+}

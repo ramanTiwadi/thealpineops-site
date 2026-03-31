@@ -1,0 +1,14 @@
+[
+  {
+    "image": "/assets/images/main1.jpg",
+    "title": "Fitness"
+  },
+  {
+    "image": "/assets/images/hero/training.jpg",
+    "title": "Training"
+  },
+  {
+    "image": "/assets/images/hero/adventure.jpg",
+    "title": "Adventure"
+  }
+]
