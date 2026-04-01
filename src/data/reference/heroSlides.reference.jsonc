@@ -1,0 +1,8 @@
+[
+  {
+    // Hero background image.
+    "image": "/assets/images/hero/fitness.jpg",
+    // Overlay title shown on the slide.
+    "title": "Fitness"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "programs": [
+    {
+      "id": 1,
+      "label": "Foundations",
+      "title": "Breaking the Comfort Mindset to Self Management",
+      "tagline": "Entry-level outdoor conditioning for first-time mountain participants.",
+      "duration": "3 Days",
+      "difficulty": "Level 1 · Entry",
+      "entryStandard": "Basic fitness required.",
+      "summary": "Overview of the level.",
+      "outcome": "Main result participants should expect.",
+      "trainingObjectives": [
+        "Psychological conditioning for the outdoors",
+        "Self-management in natural environments"
+      ],
+      "chat": [
+        {
+          // Usually System, Mentor, or Trainee.
+          "speaker": "System",
+          // Optional styling hint. Common values: accent, muted.
+          "tone": "accent",
+          "text": "Mountain Pro Foundations is the entry level of the progression."
+        }
+      ]
+    }
+  ],
+  "mentorshipPoints": [
+    "Mentorship treks bridge the gap between learning isolated skills and building real mountain capability."
+  ]
+}

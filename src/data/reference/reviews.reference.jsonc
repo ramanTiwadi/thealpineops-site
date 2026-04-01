@@ -1,0 +1,10 @@
+[
+  {
+    // Reviewer name shown in the card.
+    "name": "Reviewer Name",
+    // Review copy shown in the slider.
+    "review": "This was a great experience.",
+    // Optional rating used for stars and average score.
+    "rating": 5
+  }
+]

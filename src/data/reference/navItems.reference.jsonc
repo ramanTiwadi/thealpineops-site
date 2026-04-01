@@ -1,0 +1,12 @@
+[
+  {
+    // Route path used by the nav link.
+    "to": "/",
+    // Visible label in the navigation.
+    "label": "Home",
+    // Optional exact-match flag for the root route.
+    "end": true,
+    // SVG path string for the icon.
+    "iconPath": "M4 11.5 12 5l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1z"
+  }
+]

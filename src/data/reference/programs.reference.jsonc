@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "title": "Program Title",
+    "slug": "program-title",
+    "category": "Field Program",
+    "summary": "Short summary shown in cards.",
+    "highlights": [
+      "Highlight one",
+      "Highlight two"
+    ],
+    "location": "Dehradun",
+    "date": "25th to 26th Apr 2026",
+    "duration": "2 Days",
+    // Allowed values in the app: Open, Coming Soon, Closed.
+    "status": "Open",
+    // Optional primary image.
+    "image": "/assets/images/programs/example.jpg",
+    // Optional gallery list.
+    "gallery": [
+      "/assets/images/programs/example.jpg"
+    ],
+    "detail": {
+      "eyebrow": "Applied Military Preparation",
+      "expectTitle": "What to expect",
+      "snapshotTitle": "Program details",
+      // Can be a string or an array of strings.
+      "snapshot": [
+        "Point one",
+        "Point two"
+      ],
+      "snapshotChips": [
+        "19,000 FT",
+        "Alpine style"
+      ],
+      "factLabels": {
+        "location": "Location",
+        "date": "Date",
+        "duration": "Duration"
+      },
+      "quickFacts": [
+        {
+          // Allowed icons: duration, tourType, groupSize, tourGuide.
+          "icon": "duration",
+          "label": "Duration",
+          "value": "01 Nights 02 Days"
+        }
+      ],
+      "showPricing": false,
+      "pricing": {
+        "title": "Pricing",
+        "items": [
+          {
+            "label": "Program Fee",
+            "value": "INR 10,000"
+          }
+        ],
+        "note": "Optional pricing note."
+      },
+      "primaryCtaLabel": "Enquire on WhatsApp",
+      "primaryCtaUrl": "https://wa.me/917819983273",
+      "footerNote": "Places are limited and filled on a first-come basis.",
+      "footerCtaLabel": "Contact us for availability",
+      "footerCtaUrl": "https://wa.me/917819983273",
+      "showStay": false,
+      "stay": {
+        "title": "Stay & Accommodation",
+        "summary": "Accommodation summary.",
+        "highlights": [
+          "Shared rooms with bedding"
+        ],
+        "images": [
+          "/assets/images/main6.jpg"
+        ]
+      },
+      "showTrainingPlan": false,
+      "trainingPlan": {
+        "title": "Day-by-Day Training Plan",
+        "days": [
+          {
+            "day": "Day 1",
+            "heading": "Arrival, kit checks, and acclimatization",
+            "items": [
+              "Check-in and briefing"
+            ]
+          }
+        ]
+      },
+      "showInclusionsExclusions": false,
+      "inclusionsExclusions": {
+        "title": "Inclusions & Exclusions",
+        "inclusionsTitle": "Inclusions",
+        "exclusionsTitle": "Exclusions",
+        "inclusions": [
+          "Instructor-led training sessions"
+        ],
+        "exclusions": [
+          "Travel to and from base location"
+        ]
+      },
+      "showJoinCriteria": false,
+      "joinCriteria": {
+        "whoCanJoinTitle": "Who can join",
+        "whoCanJoin": [
+          "Eligibility point"
+        ],
+        "whoShouldJoinTitle": "Who should join",
+        "whoShouldJoin": [
+          "Audience point"
+        ]
+      }
+    }
+  }
+]

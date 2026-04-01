@@ -1,0 +1,12 @@
+[
+  {
+    // Blog headline shown in the listing.
+    "title": "How to Prepare for Your First High-Altitude Trek",
+    // Short summary text for the card.
+    "excerpt": "A practical checklist covering conditioning, layering, hydration, and acclimatization before stepping on the trail.",
+    // Human-readable publish month or date.
+    "date": "March 2026",
+    // Small category label.
+    "tag": "Trek Prep"
+  }
+]

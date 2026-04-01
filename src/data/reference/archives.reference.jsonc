@@ -1,0 +1,20 @@
+{
+  // Add as many images as needed in each section.
+  "mountainProAndTraining": [
+    {
+      // Unique ID for this image entry.
+      "id": "mountain-pro-example-1",
+      // Used for accessibility and preview alt text.
+      "title": "Mountain Pro Session",
+      // Path from /public or a full external URL.
+      "image": "assets/images/main4.jpg"
+    }
+  ],
+  "expeditionsAndTreks": [
+    {
+      "id": "expedition-example-1",
+      "title": "Expedition Memory",
+      "image": "assets/images/main6.jpg"
+    }
+  ]
+}
