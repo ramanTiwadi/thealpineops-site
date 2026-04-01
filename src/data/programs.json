@@ -172,6 +172,137 @@
   },
   {
     "id": 2,
+    "title": "Mahasar Taal Trek",
+    "slug": "mahasar-tal,
+    "category": "Field Program",
+    "summary": "Short summary shown in cards.",
+    "highlights": [
+      "Purely Guided trek",
+      "Moderate diffculty trek"
+      "All logistic support available"
+    ],
+    "location": "Budha Kedar",
+    "date": "1st May to 3rd May 2026",
+    "duration": "3 Days",
+    "status": "Open",
+    "image": "/assets/images/programs/mahasar0.jpg",
+    "gallery": [
+      "/assets/images/programs/mahasar0.jpg",
+      "/assets/images/programs/mahasar1.jpg",
+      "/assets/images/programs/mahasar2.jpg",
+      "/assets/images/programs/mahasar3.jpg",
+      "/assets/images/programs/mahasar4.jpg",
+    ],
+    "detail": {
+      "eyebrow": "Applied Military Preparation",
+      "expectTitle": "What to expect",
+      "snapshotTitle": "Program details",
+      "snapshot": 
+        "Hidden deep in the Garhwal Himalayas, Mahasar Tal is not just a destination—it’s a feeling. A sacred alpine lake, believed to be connected to the Pandavas and protected by a powerful Nag Devta presence, this untouched trail offers something rare—stillness, solitude, and raw connection. No crowds. No noise. Just you, the mountains, and the journey within. Alpine Ops Originals – Elite Guided Treks Small teams. Real experiences. Mountains as they are meant to be."
+      ,
+      "snapshotChips": [
+        "Guided Trek",
+        "Prestine beauty"
+      ],
+      "factLabels": {
+        "location": "Location",
+        "date": "Date",
+        "duration": "Duration"
+      },
+      "quickFacts": [
+        {
+          "icon": "duration",
+          "label": "Duration",
+          "value": "01 Nights 02 Days"
+        },
+        {
+          "icon": "tourType",
+          "label": "Tour Type",
+          "value": "Guided Trek"
+        },
+        {
+          "icon": "groupSize",
+          "label": "Group Size",
+          "value": "15 max"
+        },
+        {
+          "icon": "tourGuide",
+          "label": "Mentor",
+          "value": "2 Lead"
+        }
+      ],
+      "showPricing": false,
+      "pricing": {
+        "title": "Pricing",
+        "items": [
+          {
+            "label": "Program Fee",
+            "value": "INR 8,999"
+          }
+        ],
+        "note": "Optional pricing note."
+      },
+      "primaryCtaLabel": "Enquire on WhatsApp",
+      "primaryCtaUrl": "https://wa.me/917819983273",
+      "footerNote": "Places are limited and filled on a first-come basis.",
+      "footerCtaLabel": "Contact us for availability",
+      "footerCtaUrl": "https://wa.me/917819983273",
+      "showStay": false,
+      "stay": {
+        "title": "Stay & Accommodation",
+        "summary": "Accommodation summary.",
+        "highlights": [
+          "Shared tents at campsite"
+        ],
+        "images": [
+          "/assets/images/main6.jpg"
+        ]
+      },
+      "showTrainingPlan": false,
+      "trainingPlan": {
+        "title": "Day-by-Day Training Plan",
+        "days": [
+          {
+            "day": "Day 1",
+            "heading": "Arrival, kit checks, and acclimatization",
+            "items": [
+              "Check-in and briefing"
+            ]
+          }
+        ]
+      },
+      "showInclusionsExclusions": true,
+      "inclusionsExclusions": {
+        "title": "Inclusions & Exclusions",
+        "inclusionsTitle": "Inclusions",
+        "exclusionsTitle": "Exclusions",
+        "inclusions": [
+          "Stay at campsite"
+          "All meals during the trek"
+          "Experienced guides and full support"
+        ],
+        "exclusions": [
+          "Transport to/from Budha Kedar"
+          "Personal clothing and gear"
+          "Meals outside fixed menu"
+          
+        ]
+      },
+      "showJoinCriteria": false,
+      "joinCriteria": {
+        "whoCanJoinTitle": "Who can join",
+        "whoCanJoin": [
+          "Eligibility point"
+        ],
+        "whoShouldJoinTitle": "Who should join",
+        "whoShouldJoin": [
+          "Audience point"
+        ]
+      }
+    }
+  }
+  {
+    "id": 3,
     "title": "Mt Kanamo Expedition",
     "slug": "mt-kanamo-expedition",
     "category": "Field Program",
@@ -337,7 +468,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Mt CCKN Expedition",
     "slug": "mt-cckn-expedition",
     "category": "Field Program",
