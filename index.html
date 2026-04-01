@@ -2,6 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      (function () {
+        var repoBase = "/thealpineops-site";
+        var isGithubPagesRepoHost =
+          window.location.hostname === "sheetalj28.github.io";
+
+        if (isGithubPagesRepoHost && window.location.pathname === repoBase) {
+          window.location.replace(repoBase + "/");
+        }
+      })();
+    </script>
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
