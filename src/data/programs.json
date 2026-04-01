@@ -213,7 +213,7 @@
         {
           "icon": "duration",
           "label": "Duration",
-          "value": "01 Nights 02 Days"
+          "value": "02 Nights 03 Days"
         },
         {
           "icon": "tourType",
@@ -223,7 +223,7 @@
         {
           "icon": "groupSize",
           "label": "Group Size",
-          "value": "15 max"
+          "value": "10 max"
         },
         {
           "icon": "tourGuide",
@@ -231,7 +231,7 @@
           "value": "2 Lead"
         }
       ],
-      "showPricing": false,
+      "showPricing": true,
       "pricing": {
         "title": "Pricing",
         "items": [
@@ -258,15 +258,37 @@
           "/assets/images/main6.jpg"
         ]
       },
-      "showTrainingPlan": false,
+      "showTrainingPlan": true,
       "trainingPlan": {
         "title": "Day-by-Day Training Plan",
         "days": [
           {
             "day": "Day 1",
-            "heading": "Arrival, kit checks, and acclimatization",
+            "heading": "Arrival – Boodha Kedar",
             "items": [
-              "Check-in and briefing"
+              "Arrival at the serene Himalayan village of Boodha Kedar",
+"Settle in and soak in the calm, spiritual atmosphere",
+"Evening briefing & overnight stay"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "heading": "Boodha Kedar to Mahasar Tal (9 km)",
+            "items": [
+              "Moderate uphill trek through dense forests and remote mountain trails",
+"Gradual transition into untouched alpine terrain",
+"Reach the sacred Mahasar Tal—still, powerful, and deeply calming",
+"Spend time by the lake, absorbing its silence and mythological aura",
+"Overnight in tents under open skies"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "heading": "Descent & Dispersal",
+            "items": [
+              "Descend back through forests and ridgelines",
+"Trek concludes at Boodha Kedar",
+"Dispersal with memories that stay longer than the journey"
             ]
           }
         ]
@@ -288,15 +310,15 @@
           
         ]
       },
-      "showJoinCriteria": false,
+      "showJoinCriteria": true,
       "joinCriteria": {
-        "whoCanJoinTitle": "Who can join",
+        "whoCanJoinTitle": "WHY THIS TREK IS DIFFERENT",
         "whoCanJoin": [
-          "Eligibility point"
-        ],
-        "whoShouldJoinTitle": "Who should join",
-        "whoShouldJoin": [
-          "Audience point"
+          "Non-commercial, raw Himalayan trail",
+"Deep mythological significance",
+"Immersive nature experience—not just a hike",
+"Limited group size (Max: 10 participants)",
+"Designed for those seeking clarity, stillness, and connection"
         ]
       }
     }
