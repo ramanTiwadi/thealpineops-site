@@ -531,6 +531,10 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  &__includeExcludeGrid--single {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   &__includeCard,
   &__excludeCard {
     border-radius: 14px;

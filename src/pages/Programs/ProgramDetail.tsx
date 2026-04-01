@@ -54,6 +54,10 @@ const ProgramDetail = () => {
     () => (program ? program.detail.stay.images.map(resolveImageUrl) : []),
     [program],
   );
+  const hasWhoShouldJoinItems =
+    (program?.detail.joinCriteria.whoShouldJoin?.filter(
+      (item) => item.trim().length > 0,
+    ).length ?? 0) > 0;
 
   const [galleryState, setGalleryState] = useState({ slug: "", index: 0 });
   const [stayGalleryState, setStayGalleryState] = useState({
@@ -528,7 +532,13 @@ const ProgramDetail = () => {
 
       {program?.detail?.showJoinCriteria && (
         <article className="program-detail__join">
-          <div className="program-detail__includeExcludeGrid">
+          <div
+            className={`program-detail__includeExcludeGrid ${
+              !hasWhoShouldJoinItems
+                ? "program-detail__includeExcludeGrid--single"
+                : ""
+            }`.trim()}
+          >
             <section className="program-detail__includeCard">
               <h3>{program.detail.joinCriteria.whoCanJoinTitle}</h3>
               <ul className="program-detail__list">
@@ -538,14 +548,16 @@ const ProgramDetail = () => {
               </ul>
             </section>
 
-            <section className="program-detail__includeCard">
-              <h3>{program.detail.joinCriteria.whoShouldJoinTitle}</h3>
-              <ul className="program-detail__list">
-                {program.detail.joinCriteria.whoShouldJoin.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            </section>
+            {hasWhoShouldJoinItems && (
+              <section className="program-detail__includeCard">
+                <h3>{program.detail.joinCriteria.whoShouldJoinTitle}</h3>
+                <ul className="program-detail__list">
+                  {program.detail.joinCriteria.whoShouldJoin.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
           </div>
         </article>
       )}
