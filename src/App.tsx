@@ -25,9 +25,10 @@ const ScrollToTop = () => {
 
 const App = () => {
   const [collapsed, setCollapsed] = useState(true);
+  const routerBase = baseUrl === "/" ? "/" : baseUrl.replace(/\/$/, "");
 
   return (
-    <BrowserRouter basename={baseUrl}>
+    <BrowserRouter basename={routerBase}>
       <ScrollToTop />
       <div className="appShell">
         <Header />
