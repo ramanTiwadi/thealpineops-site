@@ -173,7 +173,7 @@ const About = () => {
               </p>
               <div className="founderSocials" aria-label="Founder social links">
                 <a
-                  href="https://www.instagram.com/thealpineops"
+                  href="https://www.instagram.com/ishan_theleidenschaft"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Instagram"
@@ -227,7 +227,7 @@ const About = () => {
               </p>
               <div className="founderSocials" aria-label="Founder social links">
                 <a
-                  href="https://www.instagram.com/thealpineops"
+                  href="https://www.instagram.com/major.raman.tiwadi"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Instagram"
@@ -245,7 +245,7 @@ const About = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://wa.me/917819983273"
+                  href="https://wa.me/919389204738"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="WhatsApp"
