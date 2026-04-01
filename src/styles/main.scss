@@ -9,6 +9,7 @@
 @use "../pages/Contact/Contact.module.scss";
 @use "../pages/Blogs/Blogs.module.scss";
 @use "../pages/MountainPro/MountainPro.module.scss";
+@use "../pages/Home/Home.module.scss";
 
 @use "../components/Hero/Hero.module.scss";
 @use "../components/Header/Header.module.scss";
@@ -16,3 +17,4 @@
 @use "../components/Navbar/Navbar.module.scss";
 @use "../components/Footer/Footer.module.scss";
 @use "../components//ProgramCard/ProgramCard.module.scss";
+@use "../components/HomeReviews/HomeReviews.module.scss";

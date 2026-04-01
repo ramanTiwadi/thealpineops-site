@@ -3,7 +3,6 @@ import Hero from "../../components/Hero/Hero";
 import HomeReviews from "../../components/HomeReviews/HomeReviews";
 import baseUrl from "../../constants/baseUrl";
 import reviewsData from "../../data/reviews.json";
-import styles from "./Home.module.scss";
 
 type ReviewItem = {
   name: string;
@@ -75,10 +74,10 @@ const Home = () => {
       </div>
       <section
         ref={aboutRef}
-        className={`${styles.aboutSection} ${styles.parallaxSection}`}
+        className="aboutSection parallaxSection"
       >
         <img
-          className={styles.aboutLogo}
+          className="aboutLogo"
           src={`${baseUrl}assets/images/logo.png`}
           alt="The Alpine Ops logo"
         />
@@ -101,7 +100,7 @@ const Home = () => {
       </section>
       <HomeReviews
         sectionRef={reviewsRef}
-        className={styles.parallaxSection}
+        className="parallaxSection"
         reviews={reviews}
       />
     </>
