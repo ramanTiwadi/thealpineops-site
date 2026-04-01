@@ -7,7 +7,7 @@
       (function () {
         var repoBase = "/thealpineops-site/";
         var isGithubPagesRepoHost =
-          window.location.hostname === "sheetalj28.github.io";
+          window.location.hostname.endsWith(".github.io");
         var destination = isGithubPagesRepoHost ? repoBase : "/";
         window.location.replace(destination);
       })();
