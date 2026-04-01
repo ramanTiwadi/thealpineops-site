@@ -173,12 +173,12 @@
   {
     "id": 2,
     "title": "Mahasar Taal Trek",
-    "slug": "mahasar-tal,
+    "slug": "mahasar-tal",
     "category": "Field Program",
     "summary": "Short summary shown in cards.",
     "highlights": [
       "Purely Guided trek",
-      "Moderate diffculty trek"
+      "Moderate diffculty trek",
       "All logistic support available"
     ],
     "location": "Budha Kedar",
@@ -277,13 +277,13 @@
         "inclusionsTitle": "Inclusions",
         "exclusionsTitle": "Exclusions",
         "inclusions": [
-          "Stay at campsite"
-          "All meals during the trek"
+          "Stay at campsite",
+          "All meals during the trek",
           "Experienced guides and full support"
         ],
         "exclusions": [
-          "Transport to/from Budha Kedar"
-          "Personal clothing and gear"
+          "Transport to/from Budha Kedar",
+          "Personal clothing and gear",
           "Meals outside fixed menu"
           
         ]
@@ -300,7 +300,7 @@
         ]
       }
     }
-  }
+  },
   {
     "id": 3,
     "title": "Mt Kanamo Expedition",
