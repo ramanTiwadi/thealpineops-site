@@ -52,7 +52,6 @@ const HomeReviews = ({
   const canGoNext = clampedIndex < maxIndex;
   const translate = (clampedIndex * 100) / cardsPerView;
   const totalPages = Math.max(1, maxIndex + 1);
-  const currentPage = Math.min(clampedIndex + 1, totalPages);
   const totalReviews = reviews.length;
   const averageRating = useMemo(() => {
     if (!reviews.length) return 0;
