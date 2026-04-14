@@ -2,6 +2,8 @@
   {
     // Blog headline shown in the listing.
     "title": "How to Prepare for Your First High-Altitude Trek",
+    // Author name shown on the blog card.
+    "author": "Alpine Ops Team",
     // Short summary text for the card.
     "excerpt": "A practical checklist covering conditioning, layering, hydration, and acclimatization before stepping on the trail.",
     // Human-readable publish month or date.
