@@ -8,12 +8,16 @@ import About from "./pages/About/About";
 import Archives from "./pages/Archives/Archives";
 import Contact from "./pages/Contact/Contact";
 import Blogs from "./pages/Blogs/Blogs";
+import BlogDetail from "./pages/Blogs/BlogDetail";
 import MountainPro from "./pages/MountainPro/MountainPro";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import programs from "./data/programs.json";
+import blogPosts from "./data/blogs.json";
 import type { Program } from "./types/Program";
+import type { BlogPost } from "./types/Blog";
+import { findBlogBySlug } from "./utils/blogs";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -115,6 +119,7 @@ const getProgramDescription = (program: Program) => {
 const SeoManager = () => {
   const location = useLocation();
   const programList = programs as Program[];
+  const blogList = blogPosts as BlogPost[];
 
   useEffect(() => {
     const pathname = location.pathname || "/";
@@ -136,6 +141,15 @@ const SeoManager = () => {
         title = `${program.title} | The Alpine Ops`;
         description = getProgramDescription(program);
         canonicalPath = `/programs/${program.slug}`;
+      }
+    } else if (pathname.startsWith("/blogs/")) {
+      const slug = pathname.replace("/blogs/", "");
+      const blog = findBlogBySlug(blogList, slug);
+
+      if (blog) {
+        title = `${blog.title} | The Alpine Ops`;
+        description = blog.excerpt;
+        canonicalPath = `/blogs/${slug}`;
       }
     }
 
@@ -167,7 +181,7 @@ const SeoManager = () => {
       content: description,
     });
     upsertCanonicalLink(canonicalUrl);
-  }, [location.pathname, programList]);
+  }, [blogList, location.pathname, programList]);
 
   return null;
 };
@@ -194,6 +208,7 @@ const App = () => {
             <Route path="/archives" element={<Archives />} />
             <Route path="/about" element={<About />} />
             <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blogs/:slug" element={<BlogDetail />} />
             <Route path="/mountain-pro" element={<MountainPro />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

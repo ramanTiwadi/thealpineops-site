@@ -1,12 +1,7 @@
+import { Link } from "react-router-dom";
 import blogPosts from "../../data/blogs.json";
-
-type BlogPost = {
-  title: string;
-  author: string;
-  excerpt: string;
-  date: string;
-  tag: string;
-};
+import type { BlogPost } from "../../types/Blog";
+import { getBlogPath } from "../../utils/blogs";
 
 const Blogs = () => {
   const posts = (blogPosts as BlogPost[]) ?? [];
@@ -32,9 +27,9 @@ const Blogs = () => {
               <h2>{post.title}</h2>
               <p>{post.excerpt}</p>
               <p>By {post.author}</p>
-              <button type="button" disabled>
+              <Link className="blogCard__link" to={getBlogPath(post.title)}>
                 Read More
-              </button>
+              </Link>
             </article>
           ))}
         </div>
