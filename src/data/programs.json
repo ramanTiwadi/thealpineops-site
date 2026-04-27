@@ -26,13 +26,8 @@
       "eyebrow": "Applied Military Preparation",
       "expectTitle": "What to expect",
       "snapshotTitle": "Program details",
-      "snapshot": 
-        "Hidden deep in the Garhwal Himalayas, Mahasar Tal is not just a destination—it’s a feeling. A sacred alpine lake, believed to be connected to the Pandavas and protected by a powerful Nag Devta presence, this untouched trail offers something rare—stillness, solitude, and raw connection. No crowds. No noise. Just you, the mountains, and the journey within. Alpine Ops Originals – Elite Guided Treks Small teams. Real experiences. Mountains as they are meant to be."
-      ,
-      "snapshotChips": [
-        "Guided Trek",
-        "Prestine beauty"
-      ],
+      "snapshot": "Hidden deep in the Garhwal Himalayas, Mahasar Tal is not just a destination—it’s a feeling. A sacred alpine lake, believed to be connected to the Pandavas and protected by a powerful Nag Devta presence, this untouched trail offers something rare—stillness, solitude, and raw connection. No crowds. No noise. Just you, the mountains, and the journey within. Alpine Ops Originals – Elite Guided Treks Small teams. Real experiences. Mountains as they are meant to be.",
+      "snapshotChips": ["Guided Trek", "Prestine beauty"],
       "factLabels": {
         "location": "Location",
         "date": "Date",
@@ -80,12 +75,8 @@
       "stay": {
         "title": "Stay & Accommodation",
         "summary": "Accommodation summary.",
-        "highlights": [
-          "Shared tents at campsite"
-        ],
-        "images": [
-          "/assets/images/main6.jpg"
-        ]
+        "highlights": ["Shared tents at campsite"],
+        "images": ["/assets/images/main6.jpg"]
       },
       "showTrainingPlan": true,
       "trainingPlan": {
@@ -96,8 +87,8 @@
             "heading": "Arrival – Boodha Kedar",
             "items": [
               "Arrival at the serene Himalayan village of Boodha Kedar",
-"Settle in and soak in the calm, spiritual atmosphere",
-"Evening briefing & overnight stay"
+              "Settle in and soak in the calm, spiritual atmosphere",
+              "Evening briefing & overnight stay"
             ]
           },
           {
@@ -105,10 +96,10 @@
             "heading": "Boodha Kedar to Mahasar Tal (9 km)",
             "items": [
               "Moderate uphill trek through dense forests and remote mountain trails",
-"Gradual transition into untouched alpine terrain",
-"Reach the sacred Mahasar Tal—still, powerful, and deeply calming",
-"Spend time by the lake, absorbing its silence and mythological aura",
-"Overnight in tents under open skies"
+              "Gradual transition into untouched alpine terrain",
+              "Reach the sacred Mahasar Tal—still, powerful, and deeply calming",
+              "Spend time by the lake, absorbing its silence and mythological aura",
+              "Overnight in tents under open skies"
             ]
           },
           {
@@ -116,8 +107,8 @@
             "heading": "Descent & Dispersal",
             "items": [
               "Descend back through forests and ridgelines",
-"Trek concludes at Boodha Kedar",
-"Dispersal with memories that stay longer than the journey"
+              "Trek concludes at Boodha Kedar",
+              "Dispersal with memories that stay longer than the journey"
             ]
           }
         ]
@@ -136,7 +127,6 @@
           "Transport to/from Budha Kedar",
           "Personal clothing and gear",
           "Meals outside fixed menu"
-          
         ]
       },
       "showJoinCriteria": true,
@@ -144,10 +134,10 @@
         "whoCanJoinTitle": "WHY THIS TREK IS DIFFERENT",
         "whoCanJoin": [
           "Non-commercial, raw Himalayan trail",
-"Deep mythological significance",
-"Immersive nature experience—not just a hike",
-"Limited group size (Max: 10 participants)",
-"Designed for those seeking clarity, stillness, and connection"
+          "Deep mythological significance",
+          "Immersive nature experience—not just a hike",
+          "Limited group size (Max: 10 participants)",
+          "Designed for those seeking clarity, stillness, and connection"
         ]
       }
     }
@@ -492,6 +482,155 @@
           "Individuals Ready for Alpine-Style, Self-Sufficient Expeditions",
           "Participants Looking to Strengthen Decision-Making in Extreme Conditions",
           "Those Aiming to Operate Effectively in Small, Disciplined Teams"
+        ]
+      }
+    }
+  },
+  {
+    "id": 4,
+    "title": "Spiti Ice Climbing workshop",
+    "slug": "Ice-climbing",
+    "category": "Outdoor training",
+    "summary": "Short summary shown in cards.",
+    "highlights": [
+      "Learn to climb frozen waterfalls from ex-military experts.",
+      "Master ice climbing in Spiti with India's best instructors.",
+      "Professional training, world-class gear, and total safety.",
+      "The ultimate winter ice climbing workshop in the Himalayas."
+    ],
+    "location": "Tabo, Spiti",
+    "date": "Dec-Jan-Feb",
+    "duration": "7-8 days",
+    "status": "to be announced",
+    "image": "/assets/images/programs/ice1.jpeg",
+    "gallery": [
+      "/assets/images/programs/ice2.jpeg",
+      "/assets/images/programs/ice3.jpeg",
+      "/assets/images/programs/ice4.jpeg",
+      "/assets/images/programs/ice5.jpeg",
+      "/assets/images/programs/ice6.jpeg"
+    ],
+    "detail": {
+      "eyebrow": "Applied Military Preparation",
+      "expectTitle": "What to expect",
+      "snapshotTitle": "Program details",
+      "snapshot": "join this workshop in Spiti for a week of adventure across the frozen waterfalls of Tabo and Mane. Designed for both beginner and intermediate climbers, the program features hands-on training from ex-military instructors with years of cold-weather expertise, using international-standard gear and strict safety protocols. Beyond the climb, you’ll stay in traditional local homestays, enjoy authentic Spiti cuisine, and explore the region's unique culture and landscapes. It is the perfect blend of technical skill-building and a deep, adventurous dive into the heart of the Himalayas in winter.",
+      "snapshotChips": [
+        "Outdoor trainig",
+        "Ice climbig",
+        "Ex military instructors",
+        "local sightseeing"
+      ],
+      "factLabels": {
+        "location": "Location",
+        "date": "Date",
+        "duration": "Duration"
+      },
+      "quickFacts": [
+        {
+          "icon": "duration",
+          "label": "Duration",
+          "value": "7-8 days"
+        },
+        {
+          "icon": "tourType",
+          "label": "Tour Type",
+          "value": "Outdoor Training"
+        },
+        {
+          "icon": "groupSize",
+          "label": "Group Size",
+          "value": "5-7"
+        },
+        {
+          "icon": "tourGuide",
+          "label": "Instructors",
+          "value": "2"
+        }
+      ],
+      "showPricing": true,
+      "pricing": {
+        "title": "Pricing",
+        "items": [
+          {
+            "label": "Program Fee",
+            "value": "to be announced"
+          }
+        ],
+        "note": "Optional pricing note."
+      },
+      "primaryCtaLabel": "Enquire on WhatsApp",
+      "primaryCtaUrl": "https://wa.me/917819983273",
+      "footerNote": "Places are limited and filled on a first-come basis.",
+      "footerCtaLabel": "Contact us for availability",
+      "footerCtaUrl": "https://wa.me/917819983273",
+      "showStay": true,
+      "stay": {
+        "title": "Stay & Accommodation",
+        "summary": "Accommodation summary.",
+        "highlights": ["Stay at local homestay in sharing rooms/dorms"],
+        "images": ["/assets/images/main6.jpg"]
+      },
+      "showTrainingPlan": false,
+      "trainingPlan": {
+        "title": "Day-by-Day Training Plan",
+        "days": [
+          {
+            "day": "Day 1",
+            "heading": "Arrival – Boodha Kedar",
+            "items": [
+              "Arrival at the serene Himalayan village of Boodha Kedar",
+              "Settle in and soak in the calm, spiritual atmosphere",
+              "Evening briefing & overnight stay"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "heading": "Boodha Kedar to Mahasar Tal (9 km)",
+            "items": [
+              "Moderate uphill trek through dense forests and remote mountain trails",
+              "Gradual transition into untouched alpine terrain",
+              "Reach the sacred Mahasar Tal—still, powerful, and deeply calming",
+              "Spend time by the lake, absorbing its silence and mythological aura",
+              "Overnight in tents under open skies"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "heading": "Descent & Dispersal",
+            "items": [
+              "Descend back through forests and ridgelines",
+              "Trek concludes at Boodha Kedar",
+              "Dispersal with memories that stay longer than the journey"
+            ]
+          }
+        ]
+      },
+      "showInclusionsExclusions": true,
+      "inclusionsExclusions": {
+        "title": "Inclusions & Exclusions",
+        "inclusionsTitle": "Inclusions",
+        "exclusionsTitle": "Exclusions",
+        "inclusions": [
+          "Stay at campsite",
+          "All meals during the trek",
+          "Experienced guides and full support"
+        ],
+        "exclusions": [
+          "Transport to/from Budha Kedar",
+          "Personal clothing and gear",
+          "Meals outside fixed menu"
+        ]
+      },
+      "showJoinCriteria": false,
+      "joinCriteria": {
+        "whoCanJoinTitle": "WHY THIS TREK IS DIFFERENT",
+        "whoCanJoin": [
+          "Non-commercial, raw Himalayan trail",
+          "Deep mythological significance",
+          "Immersive nature experience—not just a hike",
+          "Limited group size (Max: 10 participants)",
+          "Designed for those seeking clarity, stillness, and connection"
         ]
       }
     }

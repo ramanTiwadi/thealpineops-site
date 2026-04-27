@@ -12,7 +12,7 @@
     "location": "Dehradun",
     "date": "25th to 26th Apr 2026",
     "duration": "2 Days",
-    // Allowed values in the app: Open, Coming Soon, Closed.
+    // Allowed values in the app: Open, Coming Soon, Closed, to be announced.
     "status": "Open",
     // Optional primary image.
     "image": "/assets/images/programs/example.jpg",

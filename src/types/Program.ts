@@ -8,7 +8,7 @@ export interface Program {
   location: string;
   date: string;
   duration: string;
-  status: "Open" | "Coming Soon" | "Closed";
+  status: "Open" | "Coming Soon" | "Closed" | "to be announced";
   image?: string;
   gallery?: string[];
   detail: {
