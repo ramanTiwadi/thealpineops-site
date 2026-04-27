@@ -502,9 +502,9 @@
     "date": "Dec-Jan-Feb",
     "duration": "7-8 days",
     "status": "to be announced",
-    "image": "/assets/images/programs/ice1.jpeg",
+    "image": "/assets/images/programs/ice5.jpeg",
     "gallery": [
-      "/assets/images/programs/ice2.jpeg",
+      "/assets/images/programs/ice9.jpeg",
       "/assets/images/programs/ice3.jpeg",
       "/assets/images/programs/ice4.jpeg",
       "/assets/images/programs/ice5.jpeg",
@@ -517,7 +517,7 @@
       "snapshot": "join this workshop in Spiti for a week of adventure across the frozen waterfalls of Tabo and Mane. Designed for both beginner and intermediate climbers, the program features hands-on training from ex-military instructors with years of cold-weather expertise, using international-standard gear and strict safety protocols. Beyond the climb, you’ll stay in traditional local homestays, enjoy authentic Spiti cuisine, and explore the region's unique culture and landscapes. It is the perfect blend of technical skill-building and a deep, adventurous dive into the heart of the Himalayas in winter.",
       "snapshotChips": [
         "Outdoor trainig",
-        "Ice climbig",
+        "Ice climbing",
         "Ex military instructors",
         "local sightseeing"
       ],
@@ -564,7 +564,7 @@
       "footerNote": "Places are limited and filled on a first-come basis.",
       "footerCtaLabel": "Contact us for availability",
       "footerCtaUrl": "https://wa.me/917819983273",
-      "showStay": true,
+      "showStay": false,
       "stay": {
         "title": "Stay & Accommodation",
         "summary": "Accommodation summary.",
@@ -606,7 +606,7 @@
           }
         ]
       },
-      "showInclusionsExclusions": true,
+      "showInclusionsExclusions": false,
       "inclusionsExclusions": {
         "title": "Inclusions & Exclusions",
         "inclusionsTitle": "Inclusions",
