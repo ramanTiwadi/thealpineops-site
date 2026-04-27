@@ -18,6 +18,7 @@ import blogPosts from "./data/blogs.json";
 import type { Program } from "./types/Program";
 import type { BlogPost } from "./types/Blog";
 import { findBlogBySlug } from "./utils/blogs";
+import { findProgramBySlug, getProgramPath } from "./utils/programs";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -135,12 +136,12 @@ const SeoManager = () => {
       canonicalPath = routeSeo.path;
     } else if (pathname.startsWith("/programs/")) {
       const slug = pathname.replace("/programs/", "");
-      const program = programList.find((item) => item.slug === slug);
+      const program = findProgramBySlug(programList, slug);
 
       if (program) {
         title = `${program.title} | The Alpine Ops`;
         description = getProgramDescription(program);
-        canonicalPath = `/programs/${program.slug}`;
+        canonicalPath = getProgramPath(program.slug);
       }
     } else if (pathname.startsWith("/blogs/")) {
       const slug = pathname.replace("/blogs/", "");

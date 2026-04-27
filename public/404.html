@@ -9,6 +9,18 @@
         var isGithubPagesRepoHost =
           window.location.hostname.endsWith(".github.io");
         var destination = isGithubPagesRepoHost ? repoBase : "/";
+
+        try {
+          window.sessionStorage.setItem(
+            "spa-redirect-path",
+            window.location.pathname +
+              window.location.search +
+              window.location.hash,
+          );
+        } catch (error) {
+          console.warn("Unable to preserve redirected route.", error);
+        }
+
         window.location.replace(destination);
       })();
     </script>

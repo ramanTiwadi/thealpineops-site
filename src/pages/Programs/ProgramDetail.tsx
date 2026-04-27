@@ -1,8 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, Navigate, useParams } from "react-router-dom";
 import programs from "../../data/programs.json";
 import type { Program } from "../../types/Program";
 import baseUrl from "../../constants/baseUrl";
+import {
+  findProgramBySlug,
+  getProgramPath,
+  normalizeProgramSlug,
+} from "../../utils/programs";
 
 const resolveImageUrl = (image: string) =>
   image.startsWith("/") ? `${baseUrl}${image.slice(1)}` : image;
@@ -41,7 +46,8 @@ const renderQuickFactIcon = (
 const ProgramDetail = () => {
   const { slug } = useParams();
   const data = programs as Program[];
-  const program = data.find((item) => item.slug === slug);
+  const program = findProgramBySlug(data, slug);
+  const canonicalProgramPath = program ? getProgramPath(program.slug) : null;
 
   const galleryImages = useMemo(() => {
     if (!program) return [];
@@ -206,6 +212,10 @@ const ProgramDetail = () => {
         </div>
       </section>
     );
+  }
+
+  if (slug && normalizeProgramSlug(slug) !== normalizeProgramSlug(program.slug)) {
+    return <Navigate to={canonicalProgramPath ?? "/programs"} replace />;
   }
 
   return (

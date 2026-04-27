@@ -15,6 +15,18 @@
         var repoBase = "/thealpineops-site";
         var isGithubPagesRepoHost =
           window.location.hostname.endsWith(".github.io");
+        var appRoot = isGithubPagesRepoHost ? repoBase + "/" : "/";
+
+        try {
+          var redirectPath = window.sessionStorage.getItem("spa-redirect-path");
+
+          if (redirectPath && window.location.pathname === appRoot) {
+            window.sessionStorage.removeItem("spa-redirect-path");
+            window.history.replaceState(null, "", redirectPath);
+          }
+        } catch (error) {
+          console.warn("Unable to restore redirected route.", error);
+        }
 
         if (isGithubPagesRepoHost && window.location.pathname === repoBase) {
           window.location.replace(repoBase + "/");

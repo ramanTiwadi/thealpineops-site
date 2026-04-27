@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import type { Program } from "../../types/Program";
 import baseUrl from "../../constants/baseUrl";
+import { getProgramPath } from "../../utils/programs";
 
 const ProgramCard = (p: Program) => {
   const statusClass = `status status--${p.status
@@ -33,7 +34,7 @@ const ProgramCard = (p: Program) => {
         </p>
         <div className="footer">
           <span className={statusClass}>Registration {p.status}</span>
-          <Link className="cta" to={`/programs/${p.slug}`}>
+          <Link className="cta" to={getProgramPath(p.slug)}>
             View Program
           </Link>
         </div>
