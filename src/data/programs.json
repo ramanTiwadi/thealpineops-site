@@ -1,177 +1,6 @@
 [
   {
     "id": 1,
-    "title": "Alpine Ops Trials",
-    "slug": "alpine-ops-trials",
-    "category": "Field Program",
-    "summary": "Trials for Mt Kanamo and Mt CCKN",
-    "highlights": [
-      "Selection for Mt. Kanamo & Mt. CCKN Expedition",
-      "Military-Led Trials to Test Grit & Capability",
-      "Structured Assessment for Peak Expedition Readiness"
-    ],
-    "location": "Dehradun",
-    "date": "25th to 26st Apr 2026",
-    "duration": "2 Days",
-    "status": "Open",
-    "image": "/assets/images/programs/trialEvent1.png",
-    "gallery": [
-      "/assets/images/programs/trialEvent1.png",
-      "/assets/images/programs/trialEvent2.png"
-    ],
-    "detail": {
-      "eyebrow": "Applied Military Preparation",
-      "expectTitle": "What to expect",
-      "snapshotTitle": "Program details",
-      "snapshot": [
-        "2-Day Selection Trial Focused on Endurance & Technical Competence",
-        "Trial Fee Fully Adjustable Against Expedition Fees Upon Selection"
-      ],
-      "snapshotChips": [],
-      "factLabels": {
-        "location": "Location",
-        "date": "Date",
-        "duration": "Duration"
-      },
-      "quickFacts": [
-        {
-          "icon": "duration",
-          "label": "Duration",
-          "value": "01 Nights 02 Days"
-        },
-        {
-          "icon": "tourType",
-          "label": "Tour Type",
-          "value": "Trial Camp"
-        },
-        {
-          "icon": "groupSize",
-          "label": "Group Size",
-          "value": "15 max"
-        },
-        {
-          "icon": "tourGuide",
-          "label": "Mentor",
-          "value": "2 Lead"
-        }
-      ],
-      "primaryCtaLabel": "Enquire on WhatsApp",
-      "primaryCtaUrl": "https://wa.me/917819983273",
-      "footerNote": "Places are limited and filled on a first-come basis.",
-      "footerCtaLabel": "Contact us for availability",
-      "footerCtaUrl": "https://wa.me/917819983273",
-      "showStay": false,
-      "stay": {
-        "title": "Stay & Accommodation",
-        "summary": "Participants stay in shared expedition-style accommodation close to the training zone, with practical amenities and a secure kit area.",
-        "highlights": [
-          "Shared rooms with bedding and basic heating",
-          "Hygienic washroom access and changing area",
-          "Hot meals and hydration support during training hours"
-        ],
-        "images": [
-          "/assets/images/main6.jpg",
-          "/assets/images/main5.jpg",
-          "/assets/images/main7.jpg",
-          "/assets/images/main7.jpg"
-        ]
-      },
-      "showTrainingPlan": false,
-      "trainingPlan": {
-        "title": "Day-by-Day Training Plan",
-        "days": [
-          {
-            "day": "Day 1",
-            "heading": "Arrival, kit checks, and acclimatization",
-            "items": [
-              "Check-in, safety briefing, and camp orientation",
-              "Mobility reset and light terrain conditioning",
-              "Night routine and cold-weather prep"
-            ]
-          },
-          {
-            "day": "Day 2",
-            "heading": "Mountain movement and endurance load",
-            "items": [
-              "Ascend/descend movement drills",
-              "Load carriage intervals and pacing control",
-              "Map familiarization and route planning"
-            ]
-          },
-          {
-            "day": "Day 3",
-            "heading": "Navigation, recon, and team tasks",
-            "items": [
-              "Terrain navigation in small teams",
-              "Observation and silent movement exercises",
-              "After-action review and correction loop"
-            ]
-          },
-          {
-            "day": "Day 4",
-            "heading": "Fieldcraft and survival systems",
-            "items": [
-              "Shelter setup and heat-management protocol",
-              "Water sourcing, ration discipline, and efficiency drills",
-              "Night navigation under fatigue"
-            ]
-          },
-          {
-            "day": "Day 5",
-            "heading": "Final mission simulation and graduation",
-            "items": [
-              "Scenario-based mission combining all modules",
-              "Leadership rotations and team decision-making",
-              "Debrief, personal feedback, and closeout"
-            ]
-          }
-        ]
-      },
-      "showInclusionsExclusions": false,
-      "inclusionsExclusions": {
-        "title": "Inclusions & Exclusions",
-        "inclusionsTitle": "Inclusions",
-        "exclusionsTitle": "Exclusions",
-        "inclusions": [
-          "Instructor-led training sessions",
-          "Shared accommodation",
-          "Meals during training schedule",
-          "Basic safety and training support",
-          "Program completion certificate"
-        ],
-        "exclusions": [
-          "Travel to and from base location",
-          "Personal clothing and specialized gear",
-          "Personal insurance and medical costs",
-          "Extra snacks and personal purchases",
-          "Optional add-on activities"
-        ]
-      },
-      "showJoinCriteria": true,
-      "joinCriteria": {
-        "whoCanJoinTitle": "Selection criteria for Mt Kanamo",
-        "whoCanJoin": [
-          "6 KM vertical hike with 10kg ruck (Time: 5 hours)",
-          "Written test",
-          "30 sit-ups",
-          "6 chin-ups",
-          "25 push-ups"
-        ],
-        "whoShouldJoinTitle": "Selection criteria for Mt CCKN",
-        "whoShouldJoin": [
-          "6 KM vertical hike with 10kg ruck (Time: 5 hours)",
-          "Written test",
-          "30 sit-ups",
-          "6 chin-ups",
-          "25 push-ups",
-          "Basic knots and hitches",
-          "Basic knowledge of technical gear"
-        ]
-      }
-    }
-  },
-  {
-    "id": 2,
     "title": "Mahasar Taal Trek",
     "slug": "mahasar-tal",
     "category": "Guided trek",
@@ -324,7 +153,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Mt Kanamo Expedition",
     "slug": "mt-kanamo-expedition",
     "category": "Field Program",
@@ -490,7 +319,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Mt CCKN Expedition",
     "slug": "mt-cckn-expedition",
     "category": "Field Program",
