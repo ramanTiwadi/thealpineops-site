@@ -82,7 +82,7 @@ const Home = () => {
           alt="The Alpine Ops logo"
         />
         <p>
-          Alpine Operations and Expeditions is an adventure-led fitness company
+          Alpine Operations and Expeditions commonly known as The Alpine Ops is an adventure-led fitness company
           founded by ex-military operatives, focused on building resilient
           individuals through{" "}
           <b>4D fitness—physical, mental, emotional, and social.</b> We offer
