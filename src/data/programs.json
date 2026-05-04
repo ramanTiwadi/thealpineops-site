@@ -1,149 +1,6 @@
 [
   {
     "id": 1,
-    "title": "Mahasar Taal Trek",
-    "slug": "mahasar-tal",
-    "category": "Guided trek",
-    "summary": "Short summary shown in cards.",
-    "highlights": [
-      "Completely Guided trek",
-      "Moderate diffculty trek",
-      "All logistic support available"
-    ],
-    "location": "Budha Kedar",
-    "date": "1st May to 3rd May 2026",
-    "duration": "3 Days",
-    "status": "Open",
-    "image": "/assets/images/programs/mahasar0.jpg",
-    "gallery": [
-      "/assets/images/programs/mahasar0.jpg",
-      "/assets/images/programs/mahasar1.jpg",
-      "/assets/images/programs/mahasar2.jpg",
-      "/assets/images/programs/mahasar3.jpg",
-      "/assets/images/programs/mahasar4.jpg"
-    ],
-    "detail": {
-      "eyebrow": "Applied Military Preparation",
-      "expectTitle": "What to expect",
-      "snapshotTitle": "Program details",
-      "snapshot": "Hidden deep in the Garhwal Himalayas, Mahasar Tal is not just a destination—it’s a feeling. A sacred alpine lake, believed to be connected to the Pandavas and protected by a powerful Nag Devta presence, this untouched trail offers something rare—stillness, solitude, and raw connection. No crowds. No noise. Just you, the mountains, and the journey within. Alpine Ops Originals – Elite Guided Treks Small teams. Real experiences. Mountains as they are meant to be.",
-      "snapshotChips": ["Guided Trek", "Prestine beauty"],
-      "factLabels": {
-        "location": "Location",
-        "date": "Date",
-        "duration": "Duration"
-      },
-      "quickFacts": [
-        {
-          "icon": "duration",
-          "label": "Duration",
-          "value": "02 Nights 03 Days"
-        },
-        {
-          "icon": "tourType",
-          "label": "Tour Type",
-          "value": "Guided Trek"
-        },
-        {
-          "icon": "groupSize",
-          "label": "Group Size",
-          "value": "10 max"
-        },
-        {
-          "icon": "tourGuide",
-          "label": "Mentor",
-          "value": "2 Lead"
-        }
-      ],
-      "showPricing": true,
-      "pricing": {
-        "title": "Pricing",
-        "items": [
-          {
-            "label": "Program Fee",
-            "value": "INR 8,999"
-          }
-        ],
-        "note": "Optional pricing note."
-      },
-      "primaryCtaLabel": "Enquire on WhatsApp",
-      "primaryCtaUrl": "https://wa.me/917819983273",
-      "footerNote": "Places are limited and filled on a first-come basis.",
-      "footerCtaLabel": "Contact us for availability",
-      "footerCtaUrl": "https://wa.me/917819983273",
-      "showStay": false,
-      "stay": {
-        "title": "Stay & Accommodation",
-        "summary": "Accommodation summary.",
-        "highlights": ["Shared tents at campsite"],
-        "images": ["/assets/images/main6.jpg"]
-      },
-      "showTrainingPlan": true,
-      "trainingPlan": {
-        "title": "Day-by-Day Training Plan",
-        "days": [
-          {
-            "day": "Day 1",
-            "heading": "Arrival – Boodha Kedar",
-            "items": [
-              "Arrival at the serene Himalayan village of Boodha Kedar",
-              "Settle in and soak in the calm, spiritual atmosphere",
-              "Evening briefing & overnight stay"
-            ]
-          },
-          {
-            "day": "Day 2",
-            "heading": "Boodha Kedar to Mahasar Tal (9 km)",
-            "items": [
-              "Moderate uphill trek through dense forests and remote mountain trails",
-              "Gradual transition into untouched alpine terrain",
-              "Reach the sacred Mahasar Tal—still, powerful, and deeply calming",
-              "Spend time by the lake, absorbing its silence and mythological aura",
-              "Overnight in tents under open skies"
-            ]
-          },
-          {
-            "day": "Day 3",
-            "heading": "Descent & Dispersal",
-            "items": [
-              "Descend back through forests and ridgelines",
-              "Trek concludes at Boodha Kedar",
-              "Dispersal with memories that stay longer than the journey"
-            ]
-          }
-        ]
-      },
-      "showInclusionsExclusions": true,
-      "inclusionsExclusions": {
-        "title": "Inclusions & Exclusions",
-        "inclusionsTitle": "Inclusions",
-        "exclusionsTitle": "Exclusions",
-        "inclusions": [
-          "Stay at campsite",
-          "All meals during the trek",
-          "Experienced guides and full support"
-        ],
-        "exclusions": [
-          "Transport to/from Budha Kedar",
-          "Personal clothing and gear",
-          "Meals outside fixed menu"
-        ]
-      },
-      "showJoinCriteria": true,
-      "joinCriteria": {
-        "whoCanJoinTitle": "WHY THIS TREK IS DIFFERENT",
-        "whoCanJoin": [
-          "Non-commercial, raw Himalayan trail",
-          "Deep mythological significance",
-          "Immersive nature experience—not just a hike",
-          "Limited group size (Max: 10 participants)",
-          "Designed for those seeking clarity, stillness, and connection"
-        ]
-      }
-    }
-  },
-  {
-    "id": 2,
     "title": "Mt Kanamo Expedition",
     "slug": "mt-kanamo-expedition",
     "category": "Field Program",
@@ -309,7 +166,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Mt CCKN Expedition",
     "slug": "mt-cckn-expedition",
     "category": "Field Program",
@@ -487,11 +344,11 @@
     }
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Spiti Ice Climbing workshop",
     "slug": "Ice-climbing",
     "category": "Outdoor training",
-    "summary": "Short summary shown in cards.",
+    "summary": "The ultimate ice climbing workshop led by military experts.",
     "highlights": [
       "Learn to climb frozen waterfalls from ex-military experts.",
       "Master ice climbing in Spiti with India's best instructors.",
