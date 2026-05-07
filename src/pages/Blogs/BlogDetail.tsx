@@ -1,13 +1,12 @@
 import { Link, useParams } from "react-router-dom";
 import blogPosts from "../../data/blogs.json";
-import type { BlogPost } from "../../types/Blog";
+import type { BlogContentBlock, BlogPost } from "../../types/Blog";
 import { findBlogBySlug } from "../../utils/blogs";
 
-type BlogSection =
-  | { type: "paragraph"; content: string }
-  | { type: "heading"; content: string };
+const FALLBACK_BLOG_IMAGE = "/assets/images/hero/adventure.jpg";
+const imagePlaceholderPattern = /^\{\{([^}]+\.(?:png|jpe?g))\}\}$/i;
 
-const toReadableSections = (content: string): BlogSection[] => {
+const toReadableSections = (content: string): BlogContentBlock[] => {
   const blocks = content
     .replace(/\r\n/g, "\n")
     .split(/\n\s*\n/)
@@ -15,6 +14,18 @@ const toReadableSections = (content: string): BlogSection[] => {
     .filter(Boolean);
 
   return blocks.map((block) => {
+    const imageMatch = block.match(imagePlaceholderPattern);
+
+    if (imageMatch) {
+      const filename = imageMatch[1];
+
+      return {
+        type: "image",
+        src: `/assets/images/blogs/${filename}`,
+        alt: "",
+      };
+    }
+
     const isHeading =
       block.length <= 60 &&
       !/[.?!:]$/.test(block) &&
@@ -48,7 +59,8 @@ const BlogDetail = () => {
     );
   }
 
-  const sections = toReadableSections(post.content);
+  const sections = post.contentBlocks ?? toReadableSections(post.content);
+  const heroImage = post.image ?? FALLBACK_BLOG_IMAGE;
 
   return (
     <section className="blogDetail">
@@ -57,25 +69,45 @@ const BlogDetail = () => {
           Back to Blogs
         </Link>
 
-        <div className="blogDetail__meta">
-          <span>{post.tag}</span>
-          <span>{post.date}</span>
-        </div>
-
-        <h1>{post.title}</h1>
-        <p className="blogDetail__author">By {post.author}</p>
-        <p className="blogDetail__excerpt">{post.excerpt}</p>
+        <header className="blogDetail__header">
+          <img className="blogDetail__heroImage" src={heroImage} alt="" />
+          <div className="blogDetail__headerOverlay" aria-hidden="true" />
+          <div className="blogDetail__intro">
+            <div className="blogDetail__meta">
+              <span>{post.tag}</span>
+              <span>{post.date}</span>
+            </div>
+            <h1>{post.title}</h1>
+            <p className="blogDetail__author">By {post.author}</p>
+            <p className="blogDetail__excerpt">{post.excerpt}</p>
+          </div>
+        </header>
 
         <article className="blogDetail__article">
-          {sections.map((section, index) =>
-            section.type === "heading" ? (
-              <h2 key={`${section.content}-${index}`}>{section.content}</h2>
-            ) : (
+          {sections.map((section, index) => {
+            if (section.type === "heading") {
+              return (
+                <h2 key={`${section.content}-${index}`}>{section.content}</h2>
+              );
+            }
+
+            if (section.type === "image") {
+              return (
+                <figure
+                  key={`${section.src}-${index}`}
+                  className="blogDetail__figure"
+                >
+                  <img src={section.src} alt={section.alt} loading="lazy" />
+                </figure>
+              );
+            }
+
+            return (
               <p key={`${section.content.slice(0, 40)}-${index}`}>
                 {section.content}
               </p>
-            ),
-          )}
+            );
+          })}
         </article>
       </div>
     </section>

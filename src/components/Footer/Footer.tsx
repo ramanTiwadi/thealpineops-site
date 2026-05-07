@@ -1,5 +1,4 @@
 import baseUrl from "../../constants/baseUrl";
-// import SocialMedia from "../SocialMedia/SocialMedia";
 
 const Footer = () => {
   return (
@@ -11,11 +10,7 @@ const Footer = () => {
       />
       <div className="footer__overlay" aria-hidden="true" />
       <div className="footer__content">
-        {/* <SocialMedia variant="footer" /> */}
-        <span className="copy">
-          © 2025 The Alpine Ops
-          {/* © {new Date().getFullYear()} The Alpine Ops */}
-        </span>
+        <span className="copy">© 2025 The Alpine Ops</span>
       </div>
     </footer>
   );
