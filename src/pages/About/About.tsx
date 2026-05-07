@@ -175,7 +175,7 @@ const About = () => {
                 <a
                   href="https://www.instagram.com/ishan_theleidenschaft"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   aria-label="Instagram"
                 >
                   <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -193,7 +193,7 @@ const About = () => {
                 <a
                   href="https://wa.me/917819983273"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   aria-label="WhatsApp"
                 >
                   <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -229,7 +229,7 @@ const About = () => {
                 <a
                   href="https://www.instagram.com/major.raman.tiwadi"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   aria-label="Instagram"
                 >
                   <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -247,7 +247,7 @@ const About = () => {
                 <a
                   href="https://wa.me/919389204738"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   aria-label="WhatsApp"
                 >
                   <svg viewBox="0 0 24 24" aria-hidden="true">

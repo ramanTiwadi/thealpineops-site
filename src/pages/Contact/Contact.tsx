@@ -50,7 +50,7 @@ const Contact = () => {
           <div>
             <span>Headquarters</span>
             <p>{HEADQUARTERS_ADDRESS}</p>
-            <a href={HEADQUARTERS_MAP_URL} target="_blank" rel="noreferrer">
+            <a href={HEADQUARTERS_MAP_URL} target="_blank" rel="noopener noreferrer">
               View on Google Maps
             </a>
           </div>

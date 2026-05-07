@@ -76,7 +76,7 @@ const Header = () => {
         className="stickyContact"
         href="https://wa.me/917819983273"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         aria-label="Contact us on WhatsApp at +91 78199 83273"
         title="Contact Us"
       >

@@ -342,7 +342,7 @@ const ProgramDetail = () => {
             className="program-detail__cta"
             href={program.detail.primaryCtaUrl}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             {program.detail.primaryCtaLabel}
           </a>
@@ -603,7 +603,7 @@ const ProgramDetail = () => {
           <a
             href={program.detail.footerCtaUrl}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             {program.detail.footerCtaLabel}
           </a>

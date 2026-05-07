@@ -15,7 +15,7 @@ const SocialMedia = ({ variant }: SocialMediaProps) => {
       <a
         href="https://www.instagram.com/thealpineops"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         aria-label="Instagram"
         title="Instagram"
       >
@@ -34,7 +34,7 @@ const SocialMedia = ({ variant }: SocialMediaProps) => {
       <a
         href="https://www.facebook.com/profile.php?id=61587175724686"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         aria-label="Facebook"
         title="Facebook"
       >
@@ -48,7 +48,7 @@ const SocialMedia = ({ variant }: SocialMediaProps) => {
       <a
         href="https://www.youtube.com/@thealpineops"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         aria-label="YouTube"
         title="YouTube"
       >
@@ -64,7 +64,7 @@ const SocialMedia = ({ variant }: SocialMediaProps) => {
         href="https://www.linkedin.com/company/alpine-operations-expeditions/"
         className={styles.linkedIn}
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         aria-label="LinkedIn"
         title="LinkedIn"
       >
@@ -78,7 +78,7 @@ const SocialMedia = ({ variant }: SocialMediaProps) => {
       <a
         href="https://x.com/thealpineops"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         aria-label="X"
         title="X"
       >
@@ -94,7 +94,7 @@ const SocialMedia = ({ variant }: SocialMediaProps) => {
           href="https://wa.me/917819983273"
           className={styles.whatsApp}
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           aria-label="WhatsApp"
           title="WhatsApp"
         >

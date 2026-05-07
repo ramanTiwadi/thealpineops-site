@@ -241,7 +241,7 @@ const MountainPro = () => {
           <a
             href="https://wa.me/917819983273"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="mountain-pro__cta mountain-pro__cta--whatsapp"
           >
             WhatsApp
@@ -249,7 +249,7 @@ const MountainPro = () => {
           <a
             href="https://www.instagram.com/thealpineops"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="mountain-pro__cta"
           >
             Instagram

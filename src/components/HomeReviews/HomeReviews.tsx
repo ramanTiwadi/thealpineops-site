@@ -99,7 +99,7 @@ const HomeReviews = ({
           <a
             href={GOOGLE_REVIEWS_URL}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="reviewLink"
           >
             Read more reviews

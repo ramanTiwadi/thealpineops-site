@@ -107,7 +107,7 @@ const HeaderStoriesViewer = ({ open, onClose }: HeaderStoriesViewerProps) => {
         className="headerStoriesProfile"
         href={instagramProfileUrl}
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         aria-label="Open Instagram profile"
       >
         <img
