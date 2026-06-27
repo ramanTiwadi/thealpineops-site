@@ -147,5 +147,186 @@
         ]
       }
     }
+  },
+  {
+    "id": 4,
+    "title": "Mountain Pro Foundations",
+    "slug": "mountain-pro-foundations",
+    "category": "Mountain Pro",
+    "summary": "Level 1 beginner training for self-sufficient outdoor adventure.",
+    "highlights": [
+      "Learn self management and outdoor survival skills",
+      "Build wilderness first-aid, risk-management and field decision skills",
+      "Designed for complete beginners preparing for trekking and expedition life"
+    ],
+    "location": "Chakrata, Uttarakhand",
+    "date": "4th to 6th Dec & 18th to 20th Dec 2026",
+    "duration": "3 Days",
+    "status": "Open",
+    "image": "/assets/images/programs/mountain_pro1.jpeg",
+    "gallery": [
+      "/assets/images/programs/mountain_pro1.jpeg",
+      "/assets/images/programs/mountain_pro2.jpeg",
+      "/assets/images/programs/mountain_pro3.jpeg",
+      "/assets/images/programs/mountain_pro4.jpeg",
+      "/assets/images/programs/mountain_pro5.jpeg",
+      "/assets/images/programs/mountain_pro6.jpeg",
+      "/assets/images/programs/mountain_pro7.jpeg"
+    ],
+    "detail": {
+      "eyebrow": "Mountain Pro Level 1",
+      "expectTitle": "What to expect",
+      "snapshotTitle": "Program details",
+      "snapshot": [
+        "Conceptualised by ex-military operatives after years of operational and training experience.",
+        "MoPro Foundations is the first step into the world of self-sufficient outdoor adventure.",
+        "The course introduces mountain travel, campcraft, movement techniques, navigation, outdoor hygiene, risk management, basic wilderness first aid and the mindset required to thrive in the mountains.",
+        "Built for complete beginners who want a strong base before progressing into trekking, mountaineering, climbing and expedition life."
+      ],
+      "snapshotChips": [
+        "Level 1",
+        "Beginner friendly",
+        "Ex-military led",
+        "2 batches",
+        "Chakrata"
+      ],
+      "factLabels": {
+        "location": "Location",
+        "date": "Batches",
+        "duration": "Duration"
+      },
+      "quickFacts": [
+        {
+          "icon": "duration",
+          "label": "Duration",
+          "value": "3 Days"
+        },
+        {
+          "icon": "tourType",
+          "label": "Course Type",
+          "value": "Mountain Pro Foundations"
+        },
+        {
+          "icon": "groupSize",
+          "label": "Batches",
+          "value": "2"
+        },
+        {
+          "icon": "tourGuide",
+          "label": "Instruction",
+          "value": "Ex-Military"
+        }
+      ],
+      "showPricing": true,
+      "pricing": {
+        "title": "Pricing",
+        "items": [{ "label": "Program Fee", "value": "INR 6,999 PP" }],
+        "note": "Trainees are expected to reach base camp under their own arrangements. Transport can be arranged by Alpine Ops on request, subject to minimum group size and logistics."
+      },
+      "primaryCtaLabel": "Enquire on WhatsApp",
+      "primaryCtaUrl": "https://wa.me/917819983273",
+      "footerNote": "Two December batches are available for Mountain Pro Foundations.",
+      "footerCtaLabel": "Message us for batch availability",
+      "footerCtaUrl": "https://wa.me/917819983273",
+      "showStay": true,
+      "stay": {
+        "title": "Stay & Accommodation",
+        "summary": "Participants stay in luxury Swiss tents at the Chakrata base camp with meals included during the stay.",
+        "highlights": [
+          "Luxury Swiss tent accommodation",
+          "Meals during the stay",
+          "Camp-based learning environment"
+        ],
+        "images": [
+          "/assets/images/programs/mountain_pro1.jpeg",
+          "/assets/images/programs/mountain_pro2.jpeg",
+          "/assets/images/programs/mountain_pro3.jpeg"
+        ]
+      },
+      "showTrainingPlan": true,
+      "trainingPlan": {
+        "title": "General Itinerary",
+        "days": [
+          {
+            "day": "Day 1",
+            "heading": "Arrival & Orientation",
+            "items": [
+              "0700 hrs to 1200 hrs: Arrival",
+              "1230-1330 hrs: Documentation, medical check-up and registration",
+              "1330-1430 hrs: Lunch",
+              "1430-1530 hrs: Settling in and stay allocation",
+              "1530 hrs: Training sessions commence",
+              "1630 hrs: Evening tea",
+              "1700 hrs: Training sessions resume",
+              "1900 hrs: Night Session I",
+              "2000 hrs: Dinner",
+              "2100 hrs: Lights out"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "heading": "Field Training & Practical Application",
+            "items": [
+              "0600 hrs: Wake up",
+              "0630 hrs: Depart for morning hike with packed breakfast",
+              "1030 hrs: Return to camp",
+              "1100 hrs: Training sessions commence",
+              "1300 hrs: Lunch",
+              "1400 hrs: Training sessions resume",
+              "1630 hrs: Evening tea",
+              "1700 hrs: Final training session of the day",
+              "1800 hrs onwards: Campfire and culmination evening",
+              "2000 hrs: Dinner",
+              "2100 hrs: Lights out"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "heading": "Graduation & Departure",
+            "items": [
+              "0700 hrs: Wake up",
+              "0730 hrs: Breakfast",
+              "0800 hrs: Group photograph",
+              "0815 hrs: Certification ceremony",
+              "0900 hrs: Departure"
+            ]
+          }
+        ]
+      },
+      "showInclusionsExclusions": true,
+      "inclusionsExclusions": {
+        "title": "Inclusions & Exclusions",
+        "inclusionsTitle": "Inclusions",
+        "exclusionsTitle": "Exclusions",
+        "inclusions": [
+          "Stay in luxury Swiss tents",
+          "Meals during the stay",
+          "Instruction fees",
+          "All gears and equipment"
+        ],
+        "exclusions": ["Meals and eateries outside the stay", "Transport"]
+      },
+      "showJoinCriteria": true,
+      "joinCriteria": {
+        "whoCanJoinTitle": "Course Content",
+        "whoCanJoin": [
+          "Welcome to Adventure World",
+          "Outdoor hygiene and mountain ethics",
+          "Preparation of ruck and movement techniques",
+          "Layering",
+          "Training and recovery: pre, during and post",
+          "Nutrition and hydration: pre, during and post",
+          "First aid in mountains",
+          "Lecture and demonstration 1",
+          "Field exercise"
+        ],
+        "whoShouldJoinTitle": "Who Should Join",
+        "whoShouldJoin": [
+          "Complete beginners entering outdoor adventure",
+          "Trekkers preparing for safer, more self-sufficient mountain travel",
+          "Aspiring mountaineers, climbers and expedition participants building their foundation"
+        ]
+      }
+    }
   }
 ]
