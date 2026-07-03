@@ -157,7 +157,7 @@
     "highlights": [
       "Learn self management and outdoor survival skills",
       "Build wilderness first-aid, risk-management and field decision skills",
-      "Designed for complete beginners preparing for trekking and expedition life"
+      "Designed for complete beginners preparing for a trek or expedition"
     ],
     "location": "Chakrata, Uttarakhand",
     "date": "4th to 6th Dec & 18th to 20th Dec 2026",
@@ -213,7 +213,7 @@
         },
         {
           "icon": "tourGuide",
-          "label": "Instruction",
+          "label": "Instructors",
           "value": "Ex-Military"
         }
       ],
@@ -317,7 +317,7 @@
           "Training and recovery: pre, during and post",
           "Nutrition and hydration: pre, during and post",
           "First aid in mountains",
-          "Lecture and demonstration 1",
+          "Lecture and demonstration",
           "Field exercise"
         ],
         "whoShouldJoinTitle": "Who Should Join",
