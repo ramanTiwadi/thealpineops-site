@@ -1,153 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "Spiti Ice Climbing workshop",
-    "slug": "Ice-climbing",
-    "category": "Outdoor training",
-    "summary": "The ultimate ice climbing workshop led by military experts.",
-    "highlights": [
-      "Learn to climb frozen waterfalls from ex-military experts.",
-      "Professional training, world-class gear, and total safety.",
-      "The ultimate winter ice climbing workshop in the Himalayas.",
-      "Stay in beautiful homestays in Spiti and enjoy the local life and cuisine."
-    ],
-    "location": "Tabo, Spiti",
-    "date": "Dec-Jan-Feb",
-    "duration": "7-8 days",
-    "status": "to be announced",
-    "image": "/assets/images/programs/ice3.jpeg",
-    "gallery": [
-      "/assets/images/programs/ice9.jpeg",
-      "/assets/images/programs/ice3.jpeg",
-      "/assets/images/programs/ice4.jpeg",
-      "/assets/images/programs/ice6.jpeg"
-    ],
-    "detail": {
-      "eyebrow": "Applied Military Preparation",
-      "expectTitle": "What to expect",
-      "snapshotTitle": "Program details",
-      "snapshot": "join this workshop in Spiti for a week of adventure across the frozen waterfalls of Tabo and Mane. Designed for both beginner and intermediate climbers, the program features hands-on training from ex-military instructors with years of cold-weather expertise, using international-standard gear and strict safety protocols. Beyond the climb, you’ll stay in traditional local homestays, enjoy authentic Spiti cuisine, and explore the region's unique culture and landscapes. It is the perfect blend of technical skill-building and a deep, adventurous dive into the heart of the Himalayas in winter.",
-      "snapshotChips": [
-        "Outdoor trainig",
-        "Ice climbing",
-        "Ex military instructors",
-        "local sightseeing"
-      ],
-      "factLabels": {
-        "location": "Location",
-        "date": "Date",
-        "duration": "Duration"
-      },
-      "quickFacts": [
-        {
-          "icon": "duration",
-          "label": "Duration",
-          "value": "7-8 days"
-        },
-        {
-          "icon": "tourType",
-          "label": "Tour Type",
-          "value": "Outdoor Training"
-        },
-        {
-          "icon": "groupSize",
-          "label": "Group Size",
-          "value": "5-7"
-        },
-        {
-          "icon": "tourGuide",
-          "label": "Instructors",
-          "value": "2"
-        }
-      ],
-      "showPricing": true,
-      "pricing": {
-        "title": "Pricing",
-        "items": [
-          {
-            "label": "Program Fee",
-            "value": "to be announced"
-          }
-        ],
-        "note": "Optional pricing note."
-      },
-      "primaryCtaLabel": "Enquire on WhatsApp",
-      "primaryCtaUrl": "https://wa.me/917819983273",
-      "footerNote": "Places are limited and filled on a first-come basis.",
-      "footerCtaLabel": "Contact us for availability",
-      "footerCtaUrl": "https://wa.me/917819983273",
-      "showStay": false,
-      "stay": {
-        "title": "Stay & Accommodation",
-        "summary": "Accommodation summary.",
-        "highlights": ["Stay at local homestay in sharing rooms/dorms"],
-        "images": ["/assets/images/main6.jpg"]
-      },
-      "showTrainingPlan": false,
-      "trainingPlan": {
-        "title": "Day-by-Day Training Plan",
-        "days": [
-          {
-            "day": "Day 1",
-            "heading": "Arrival – Boodha Kedar",
-            "items": [
-              "Arrival at the serene Himalayan village of Boodha Kedar",
-              "Settle in and soak in the calm, spiritual atmosphere",
-              "Evening briefing & overnight stay"
-            ]
-          },
-          {
-            "day": "Day 2",
-            "heading": "Boodha Kedar to Mahasar Tal (9 km)",
-            "items": [
-              "Moderate uphill trek through dense forests and remote mountain trails",
-              "Gradual transition into untouched alpine terrain",
-              "Reach the sacred Mahasar Tal—still, powerful, and deeply calming",
-              "Spend time by the lake, absorbing its silence and mythological aura",
-              "Overnight in tents under open skies"
-            ]
-          },
-          {
-            "day": "Day 3",
-            "heading": "Descent & Dispersal",
-            "items": [
-              "Descend back through forests and ridgelines",
-              "Trek concludes at Boodha Kedar",
-              "Dispersal with memories that stay longer than the journey"
-            ]
-          }
-        ]
-      },
-      "showInclusionsExclusions": false,
-      "inclusionsExclusions": {
-        "title": "Inclusions & Exclusions",
-        "inclusionsTitle": "Inclusions",
-        "exclusionsTitle": "Exclusions",
-        "inclusions": [
-          "Stay at campsite",
-          "All meals during the trek",
-          "Experienced guides and full support"
-        ],
-        "exclusions": [
-          "Transport to/from Budha Kedar",
-          "Personal clothing and gear",
-          "Meals outside fixed menu"
-        ]
-      },
-      "showJoinCriteria": false,
-      "joinCriteria": {
-        "whoCanJoinTitle": "WHY THIS TREK IS DIFFERENT",
-        "whoCanJoin": [
-          "Non-commercial, raw Himalayan trail",
-          "Deep mythological significance",
-          "Immersive nature experience—not just a hike",
-          "Limited group size (Max: 10 participants)",
-          "Designed for those seeking clarity, stillness, and connection"
-        ]
-      }
-    }
-  },
-  {
     "id": 4,
     "title": "Mountain Pro Foundations",
     "slug": "mountain-pro-foundations",
@@ -219,7 +71,12 @@
       "showPricing": true,
       "pricing": {
         "title": "Pricing",
-        "items": [{ "label": "Program Fee", "value": "INR 6,999 PP" }],
+        "items": [
+          {
+            "label": "Program Fee",
+            "value": "INR 6,999 PP"
+          }
+        ],
         "note": "Trainees are expected to reach base camp under their own arrangements. Transport can be arranged by Alpine Ops on request, subject to minimum group size and logistics."
       },
       "primaryCtaLabel": "Enquire on WhatsApp",
@@ -303,7 +160,10 @@
           "Instruction fees",
           "All gears and equipment"
         ],
-        "exclusions": ["Meals and eateries outside the stay", "Transport"]
+        "exclusions": [
+          "Meals and eateries outside the stay",
+          "Transport"
+        ]
       },
       "showJoinCriteria": true,
       "joinCriteria": {
@@ -324,6 +184,382 @@
           "Complete beginners entering outdoor adventure",
           "Trekkers preparing for safer, more self-sufficient mountain travel",
           "Aspiring mountaineers, climbers and expedition participants building their foundation"
+        ]
+      }
+    }
+  },
+  {
+    "id": 5,
+    "title": "Mountain Pro Practitioners",
+    "slug": "mountain-pro-practitioners",
+    "category": "Mountain Pro",
+    "summary": "Your second step into the world of self-sufficient outdoor adventure.",
+    "highlights": [
+      "Learn the fundamentals of mountain travel, campcraft, movement techniques, navigation, outdoor hygiene, risk management, basic wilderness first aid, and the mindset required to thrive in the mountains.",
+      "Designed for people having some outdoor experience, who want to build a strong foundation before progressing into high altitude trekking, mountaineering, climbing, and expedition life.",
+      "The programme follows a military-inspired training methodology with emphasis on teamwork, leadership and self-sufficiency."
+    ],
+    "location": "Chakrata, Uttarakhand",
+    "date": "9th Dec to 13th Dec 2026 & 25th Dec to 29th Dec 2026",
+    "duration": "5 Day Training Programme",
+    "status": "Open",
+    "image": "/assets/images/programs/p1.jpg",
+    "gallery": [
+      "/assets/images/programs/p1.jpg",
+      "/assets/images/programs/p2.jpg",
+      "/assets/images/programs/p3.jpg",
+      "/assets/images/programs/p4.JPG",
+      "/assets/images/programs/p5.JPG",
+      "/assets/images/programs/p6.JPG",
+      "/assets/images/programs/p7.JPG",
+      "/assets/images/programs/p8.JPG",
+      "/assets/images/programs/p9.JPG",
+      "/assets/images/programs/p10.JPG",
+      "/assets/images/programs/p11.JPG",
+      "/assets/images/programs/p12.JPG",
+      "/assets/images/programs/p13.JPG",
+      "/assets/images/programs/p14.jpg",
+      "/assets/images/programs/p15.jpg",
+      "/assets/images/programs/p16.jpg",
+      "/assets/images/programs/p17.jpg",
+      "/assets/images/programs/p18.jpg"
+    ],
+    "detail": {
+      "eyebrow": "Mountain Pro Practitioners",
+      "expectTitle": "What to expect",
+      "snapshotTitle": "Overview",
+      "snapshot": [
+        "Conceptualised by Ex-Military Operatives after years of operational and training experience.",
+        "MOUNTAIN PRO is the flagship training programme of Alpine Operations & Expeditions.",
+        "Practitioners - Your second step into the world of self-sufficient outdoor adventure.",
+        "Learn the fundamentals of mountain travel, campcraft, movement techniques, navigation, outdoor hygiene, risk management, basic wilderness first aid, and the mindset required to thrive in the mountains.",
+        "Designed for people having some outdoor experience, who want to build a strong foundation before progressing into high altitude trekking, mountaineering, climbing, and expedition life."
+      ],
+      "snapshotChips": [
+        "Level 2",
+        "5 Day Training Programme",
+        "Two batches",
+        "Chakrata"
+      ],
+      "factLabels": {
+        "location": "Venue",
+        "date": "Batches",
+        "duration": "Duration"
+      },
+      "quickFacts": [
+        {
+          "icon": "duration",
+          "label": "Duration",
+          "value": "5 Day Training Programme"
+        },
+        {
+          "icon": "tourType",
+          "label": "Course Type",
+          "value": "Mountain Pro Practitioners"
+        },
+        {
+          "icon": "groupSize",
+          "label": "Number of Batches",
+          "value": "Two"
+        },
+        {
+          "icon": "tourGuide",
+          "label": "Instructors",
+          "value": "Ex-Military Instructors"
+        }
+      ],
+      "showPricing": true,
+      "pricing": {
+        "title": "Price",
+        "items": [
+          {
+            "label": "Program Fee",
+            "value": "INR 14,999 PP"
+          }
+        ],
+        "note": "Note: Trainees are expected to reach the Base Camp under their own arrangements. Transportation can be arranged by Alpine Ops upon request, subject to a minimum group size of 3 or 6 participants, depending on the pickup location and logistics. Any transportation arranged by Alpine Ops is provided solely as a facilitation service. The agreement for such services remains directly between the trainees and the transport provider. Alpine Ops neither derives any profit from these arrangements nor assumes any responsibility or liability for the conduct, services, delays, or actions of the transport provider."
+      },
+      "footerNote": "Timings are tentative and may change based on weather, training progress and operational requirements. Participants should be prepared for extended outdoor activity, uneven terrain and adverse weather conditions. The programme follows a military-inspired training methodology with emphasis on teamwork, leadership and self-sufficiency.",
+      "showStay": true,
+      "stay": {
+        "title": "Stay",
+        "summary": "Stay in luxury Swiss tents. Meals during the stay.",
+        "highlights": [
+          "Stay in luxury Swiss tents.",
+          "Meals during the stay."
+        ],
+        "images": [
+          "/assets/images/programs/p1.jpg",
+          "/assets/images/programs/p2.jpg",
+          "/assets/images/programs/p3.jpg"
+        ]
+      },
+      "showTrainingPlan": true,
+      "trainingPlan": {
+        "title": "5-Day Training Schedule",
+        "days": [
+          {
+            "day": "Day 1",
+            "heading": "Arrival, Registration & Orientation",
+            "items": [
+              "0700-1200 hrs: Arrival, Check-in, Medical & Documentation.",
+              "1200-1300 hrs: Rest & Accommodation Allocation.",
+              "1300-1400 hrs: Lunch.",
+              "1400-1500 hrs: Camp Familiarisation & Equipment Check.",
+              "1500-1700 hrs: Session 1.",
+              "1700-1730 hrs: Tea Break.",
+              "1730-1900 hrs: Session 2.",
+              "1900-2000 hrs: Night Session 1.",
+              "2000-2030 hrs: Dinner.",
+              "2030-2130 hrs: Night Session 2",
+              "2200 hrs: Lights Out"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "heading": "Navigation & Rock Craft",
+            "items": [
+              "0530 hrs: Morning Tea.",
+              "0600-0730 hrs: Practical Navigation Exercise.",
+              "0730-0830 hrs: Breakfast at Rock Craft Area.",
+              "0830-1300 hrs: Rock Craft.",
+              "1300-1400 hrs: Lunch",
+              "1400-1700 hrs: Rock Craft",
+              "1700 hrs: Return to Camp",
+              "1700-1800 hrs: Rest & Recovery",
+              "1800-1900 hrs: Dinner",
+              "1900-2130 hrs: Field Exercise Preparation, Equipment Layout & Mission Brief",
+              "2200 hrs: Lights Out"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "heading": "Field Exercise I (Overnight Camping)",
+            "items": [
+              "0600-0700 hrs: Breakfast",
+              "0700-0800 hrs: Final Mission Brief & Equipment Check",
+              "0800 hrs onwards: Field Exercise Commences",
+              "1300 hrs: Packed Lunch in Field",
+              "1400-1800 hrs: Practical Tasks, Navigation & Team Challenges",
+              "1800-2100 hrs: Camp Establishment, Cooking & Fieldcraft",
+              "2100 hrs: Debrief",
+              "Overnight: Night Camp Out"
+            ]
+          },
+          {
+            "day": "Day 4",
+            "heading": "Recovery, Learning & Celebration",
+            "items": [
+              "0600-0700 hrs: Breakfast in Field",
+              "0700-1200 hrs: Return March to Base Camp",
+              "1200-1300 hrs: Lunch",
+              "1300-1500 hrs: Rest, Recovery & Personal Administration",
+              "1500-1700 hrs: Session 3",
+              "1700-1730 hrs: Tea Break",
+              "1730-1900 hrs: Session 4.",
+              "1900-2100 hrs: Success Party & Campfire",
+              "2100 hrs: Dinner",
+              "2200 hrs: Lights Out"
+            ]
+          },
+          {
+            "day": "Day 5",
+            "heading": "Graduation & Departure",
+            "items": [
+              "0700-0800 hrs: Breakfast",
+              "0800-0900 hrs: Graduation Ceremony & Certification",
+              "0900-0930 hrs: Group Photograph",
+              "0930-1000 hrs: Closing Address & Feedback",
+              "1000 hrs onwards: Departure"
+            ]
+          }
+        ]
+      },
+      "showInclusionsExclusions": true,
+      "inclusionsExclusions": {
+        "title": "Inclusions & Exclusions",
+        "inclusionsTitle": "Inclusions",
+        "exclusionsTitle": "Exclusions",
+        "inclusions": [
+          "Stay in luxury Swiss tents.",
+          "Meals during the stay.",
+          "Instruction Fees.",
+          "All Gears and Equipment.",
+          "Ex-Military Instructors."
+        ],
+        "exclusions": [
+          "Meals and Eateries outside the stay.",
+          "Transport."
+        ]
+      },
+      "showJoinCriteria": true,
+      "joinCriteria": {
+        "whoCanJoinTitle": "Course Content",
+        "whoCanJoin": [
+          "The MoPro Practitioners course consists of 9 modules delivered through theory classes, practical sessions, interactive discussions, lectures, and demonstrations. Beyond outdoor skills, the course focuses on Team Management, discipline, decision-making, and developing the mindset required to become a capable and self-sufficient mountain person.",
+          "REFRESHER CLASSES.",
+          "CAMP CRAFT.",
+          "ROCK CRAFT.",
+          "RAPPELING.",
+          "TRAINING AND RECOVERY. (PRE/DURING/POST).",
+          "NUTRITION AND HYDRATION. (PRE/DURING/POST).",
+          "WILDERNESS FIRST AID.",
+          "LECTURE AND DEMONSTRATION - 1.",
+          "FIELD EXERCISE."
+        ],
+        "whoShouldJoinTitle": "",
+        "whoShouldJoin": []
+      }
+    }
+  },
+  {
+    "id": 1,
+    "title": "Spiti Ice Climbing workshop",
+    "slug": "Ice-climbing",
+    "category": "Outdoor training",
+    "summary": "The ultimate ice climbing workshop led by military experts.",
+    "highlights": [
+      "Learn to climb frozen waterfalls from ex-military experts.",
+      "Professional training, world-class gear, and total safety.",
+      "The ultimate winter ice climbing workshop in the Himalayas.",
+      "Stay in beautiful homestays in Spiti and enjoy the local life and cuisine."
+    ],
+    "location": "Tabo, Spiti",
+    "date": "Dec-Jan-Feb",
+    "duration": "7-8 days",
+    "status": "to be announced",
+    "image": "/assets/images/programs/ice3.jpeg",
+    "gallery": [
+      "/assets/images/programs/ice9.jpeg",
+      "/assets/images/programs/ice3.jpeg",
+      "/assets/images/programs/ice4.jpeg",
+      "/assets/images/programs/ice6.jpeg"
+    ],
+    "detail": {
+      "eyebrow": "Applied Military Preparation",
+      "expectTitle": "What to expect",
+      "snapshotTitle": "Program details",
+      "snapshot": "join this workshop in Spiti for a week of adventure across the frozen waterfalls of Tabo and Mane. Designed for both beginner and intermediate climbers, the program features hands-on training from ex-military instructors with years of cold-weather expertise, using international-standard gear and strict safety protocols. Beyond the climb, you’ll stay in traditional local homestays, enjoy authentic Spiti cuisine, and explore the region's unique culture and landscapes. It is the perfect blend of technical skill-building and a deep, adventurous dive into the heart of the Himalayas in winter.",
+      "snapshotChips": [
+        "Outdoor trainig",
+        "Ice climbing",
+        "Ex military instructors",
+        "local sightseeing"
+      ],
+      "factLabels": {
+        "location": "Location",
+        "date": "Date",
+        "duration": "Duration"
+      },
+      "quickFacts": [
+        {
+          "icon": "duration",
+          "label": "Duration",
+          "value": "7-8 days"
+        },
+        {
+          "icon": "tourType",
+          "label": "Tour Type",
+          "value": "Outdoor Training"
+        },
+        {
+          "icon": "groupSize",
+          "label": "Group Size",
+          "value": "5-7"
+        },
+        {
+          "icon": "tourGuide",
+          "label": "Instructors",
+          "value": "2"
+        }
+      ],
+      "showPricing": true,
+      "pricing": {
+        "title": "Pricing",
+        "items": [
+          {
+            "label": "Program Fee",
+            "value": "to be announced"
+          }
+        ],
+        "note": "Optional pricing note."
+      },
+      "primaryCtaLabel": "Enquire on WhatsApp",
+      "primaryCtaUrl": "https://wa.me/917819983273",
+      "footerNote": "Places are limited and filled on a first-come basis.",
+      "footerCtaLabel": "Contact us for availability",
+      "footerCtaUrl": "https://wa.me/917819983273",
+      "showStay": false,
+      "stay": {
+        "title": "Stay & Accommodation",
+        "summary": "Accommodation summary.",
+        "highlights": [
+          "Stay at local homestay in sharing rooms/dorms"
+        ],
+        "images": [
+          "/assets/images/main6.jpg"
+        ]
+      },
+      "showTrainingPlan": false,
+      "trainingPlan": {
+        "title": "Day-by-Day Training Plan",
+        "days": [
+          {
+            "day": "Day 1",
+            "heading": "Arrival – Boodha Kedar",
+            "items": [
+              "Arrival at the serene Himalayan village of Boodha Kedar",
+              "Settle in and soak in the calm, spiritual atmosphere",
+              "Evening briefing & overnight stay"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "heading": "Boodha Kedar to Mahasar Tal (9 km)",
+            "items": [
+              "Moderate uphill trek through dense forests and remote mountain trails",
+              "Gradual transition into untouched alpine terrain",
+              "Reach the sacred Mahasar Tal—still, powerful, and deeply calming",
+              "Spend time by the lake, absorbing its silence and mythological aura",
+              "Overnight in tents under open skies"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "heading": "Descent & Dispersal",
+            "items": [
+              "Descend back through forests and ridgelines",
+              "Trek concludes at Boodha Kedar",
+              "Dispersal with memories that stay longer than the journey"
+            ]
+          }
+        ]
+      },
+      "showInclusionsExclusions": false,
+      "inclusionsExclusions": {
+        "title": "Inclusions & Exclusions",
+        "inclusionsTitle": "Inclusions",
+        "exclusionsTitle": "Exclusions",
+        "inclusions": [
+          "Stay at campsite",
+          "All meals during the trek",
+          "Experienced guides and full support"
+        ],
+        "exclusions": [
+          "Transport to/from Budha Kedar",
+          "Personal clothing and gear",
+          "Meals outside fixed menu"
+        ]
+      },
+      "showJoinCriteria": false,
+      "joinCriteria": {
+        "whoCanJoinTitle": "WHY THIS TREK IS DIFFERENT",
+        "whoCanJoin": [
+          "Non-commercial, raw Himalayan trail",
+          "Deep mythological significance",
+          "Immersive nature experience—not just a hike",
+          "Limited group size (Max: 10 participants)",
+          "Designed for those seeking clarity, stillness, and connection"
         ]
       }
     }

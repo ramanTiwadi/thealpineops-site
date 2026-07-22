@@ -8,7 +8,7 @@ export interface Program {
   location: string;
   date: string;
   duration: string;
-  status: "Open" | "Coming Soon" | "Closed" | "to be announced";
+  status?: "Open" | "Coming Soon" | "Closed" | "to be announced";
   image?: string;
   gallery?: string[];
   detail: {
@@ -36,11 +36,11 @@ export interface Program {
       }[];
       note?: string;
     };
-    primaryCtaLabel: string;
-    primaryCtaUrl: string;
+    primaryCtaLabel?: string;
+    primaryCtaUrl?: string;
     footerNote: string;
-    footerCtaLabel: string;
-    footerCtaUrl: string;
+    footerCtaLabel?: string;
+    footerCtaUrl?: string;
     showStay?: boolean;
     stay: {
       title: string;

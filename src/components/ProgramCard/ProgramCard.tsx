@@ -4,9 +4,9 @@ import baseUrl from "../../constants/baseUrl";
 import { getProgramPath } from "../../utils/programs";
 
 const ProgramCard = (p: Program) => {
-  const statusClass = `status status--${p.status
-    .toLowerCase()
-    .replace(/\s+/g, "-")}`;
+  const statusClass = p.status
+    ? `status status--${p.status.toLowerCase().replace(/\s+/g, "-")}`
+    : "";
   const imageUrl = p.image
     ? p.image.startsWith("/")
       ? `${baseUrl}${p.image.slice(1)}`
@@ -33,7 +33,9 @@ const ProgramCard = (p: Program) => {
           {p.location} · {p.date} · {p.duration}
         </p>
         <div className="footer">
-          <span className={statusClass}>Registration {p.status}</span>
+          {p.status && (
+            <span className={statusClass}>Registration {p.status}</span>
+          )}
           <Link className="cta" to={getProgramPath(p.slug)}>
             View Program
           </Link>

@@ -295,11 +295,13 @@ const ProgramDetail = () => {
           <h1>{program.title}</h1>
           <div className="program-detail__metaPills">
             <span className="program-detail__category">{program.category}</span>
-            <span
-              className={`status status--${program.status.toLowerCase().replace(/\s+/g, "-")}`}
-            >
-              {program.status}
-            </span>
+            {program.status && (
+              <span
+                className={`status status--${program.status.toLowerCase().replace(/\s+/g, "-")}`}
+              >
+                {program.status}
+              </span>
+            )}
           </div>
           <p className="program-detail__summary">{program.summary}</p>
 
@@ -338,14 +340,16 @@ const ProgramDetail = () => {
               </div>
             )}
 
-          <a
-            className="program-detail__cta"
-            href={program.detail.primaryCtaUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {program.detail.primaryCtaLabel}
-          </a>
+          {program.detail.primaryCtaLabel && program.detail.primaryCtaUrl && (
+            <a
+              className="program-detail__cta"
+              href={program.detail.primaryCtaUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {program.detail.primaryCtaLabel}
+            </a>
+          )}
 
           {/* <Link className="program-detail__back" to="/programs">
             <span className="program-detail__backIcon" aria-hidden="true">
@@ -599,15 +603,17 @@ const ProgramDetail = () => {
 
       <div className="program-detail__footerNote">
         {program.detail.footerNote}
-        <div>
-          <a
-            href={program.detail.footerCtaUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {program.detail.footerCtaLabel}
-          </a>
-        </div>
+        {program.detail.footerCtaLabel && program.detail.footerCtaUrl && (
+          <div>
+            <a
+              href={program.detail.footerCtaUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {program.detail.footerCtaLabel}
+            </a>
+          </div>
+        )}
       </div>
 
       {previewState && previewImage && (
