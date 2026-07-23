@@ -427,7 +427,7 @@
     "location": "Tabo, Spiti",
     "date": "Dec-Jan-Feb",
     "duration": "7-8 days",
-    "status": "to be announced",
+    "status": "Registration Open",
     "image": "/assets/images/programs/ice3.jpeg",
     "gallery": [
       "/assets/images/programs/ice9.jpeg",
@@ -479,7 +479,159 @@
         "items": [
           {
             "label": "Program Fee",
-            "value": "to be announced"
+            "value": "74,999"
+          }
+        ],
+        "note": ""
+      },
+      "primaryCtaLabel": "Enquire on WhatsApp",
+      "primaryCtaUrl": "https://wa.me/917819983273",
+      "footerNote": "Places are limited and filled on a first-come basis.",
+      "footerCtaLabel": "Contact us for availability",
+      "footerCtaUrl": "https://wa.me/917819983273",
+      "showStay": false,
+      "stay": {
+        "title": "Stay & Accommodation",
+        "summary": "Accommodation summary.",
+        "highlights": [
+          "Stay at local homestay in sharing rooms/dorms"
+        ],
+        "images": [
+          "/assets/images/main6.jpg"
+        ]
+      },
+      "showTrainingPlan": false,
+      "trainingPlan": {
+        "title": "Day-by-Day Training Plan",
+        "days": [
+          {
+            "day": "Day 1",
+            "heading": "Arrival – Boodha Kedar",
+            "items": [
+              "Arrival at the serene Himalayan village of Boodha Kedar",
+              "Settle in and soak in the calm, spiritual atmosphere",
+              "Evening briefing & overnight stay"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "heading": "Boodha Kedar to Mahasar Tal (9 km)",
+            "items": [
+              "Moderate uphill trek through dense forests and remote mountain trails",
+              "Gradual transition into untouched alpine terrain",
+              "Reach the sacred Mahasar Tal—still, powerful, and deeply calming",
+              "Spend time by the lake, absorbing its silence and mythological aura",
+              "Overnight in tents under open skies"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "heading": "Descent & Dispersal",
+            "items": [
+              "Descend back through forests and ridgelines",
+              "Trek concludes at Boodha Kedar",
+              "Dispersal with memories that stay longer than the journey"
+            ]
+          }
+        ]
+      },
+      "showInclusionsExclusions": true,
+      "inclusionsExclusions": {
+        "title": "Inclusions & Exclusions",
+        "inclusionsTitle": "Inclusions",
+        "exclusionsTitle": "Exclusions",
+        "inclusions": [
+          "Stay (Shimla to Shimla)",
+          "Meals during the stay",
+          "4x4 Transport (Shimla to Shimla)",
+          "Inland trasport during ice climbing",
+          "Ex- Military Instructors",
+          "Instruction fee",
+          "Gears and eqipments",
+          "Professional Photography and videography cover"
+        ],
+        "exclusions": [
+          "Meals outside stay",
+          "Personal clothing"
+        ]
+      },
+      "showJoinCriteria": false,
+      "joinCriteria": {
+        "whoCanJoinTitle": "WHY THIS TREK IS DIFFERENT",
+        "whoCanJoin": [
+          "Non-commercial, raw Himalayan trail",
+          "Deep mythological significance",
+          "Immersive nature experience—not just a hike",
+          "Limited group size (Max: 10 participants)",
+          "Designed for those seeking clarity, stillness, and connection"
+        ]
+      }
+    }
+  },
+  {
+    "id": 9,
+    "title": "Black Peak Expedition",
+    "slug": "Black-peak",
+    "category": "Guided Expedition",
+    "summary": "A fully guided expedition to Black peak (Kala Nag) 6387m",
+    "highlights": [
+      "A fully supported expedition to one of the most challanging peak in Uttrakhand",
+      "Professional guides, world-class gear, and total safety.",
+      "Led by experienced Ex-military team"
+    ],
+    "location": "Govind Pashu Vihar National Park, Uttarkashi",
+    "date": "26 Sept- 10 Oct 2026",
+    "duration": "15 days",
+    "status": "Registration Open",
+    "image": "/assets/images/programs/ice3.jpeg",
+    "gallery": [
+      "/assets/images/programs/p4-1.jpeg",
+      "/assets/images/programs/p4-2.jpeg",
+      "/assets/images/programs/p4-3.jpeg",
+      "/assets/images/programs/p4-4.jpeg",
+      "/assets/images/programs/p4-5.jpeg",
+      "/assets/images/programs/p4-6.jpeg"
+    ],
+    "detail": {
+      "eyebrow": "Fully guided expedition",
+      "expectTitle": "What to expect",
+      "snapshotTitle": "Event details",
+      "snapshot": "Standing at 6,387 meters (20,955 ft) in the Garhwal Himalayas of Uttarakhand, Black Peak—locally known as Kalanag for its dark, cobra-hooded summit ridge—is the classic step up into serious Himalayan mountaineering. This expedition is designed for experienced trekkers making the leap from high-altitude trekking to technical alpine climbing, combining scenic approach trails with glacier travel, fixed-rope ascents, and high-camp logistics. ",
+      "snapshotChips": [
+        "expedition",
+        "6,387m",
+        "Ex military instructors",
+        "Mountaineering"
+      ],
+      "factLabels": {
+        "location": "Location",
+        "date": "Date",
+        "duration": "Duration"
+      },
+      "quickFacts": [
+        {
+          "icon": "duration",
+          "label": "Duration",
+          "value": "15 days"
+        },
+        {
+          "icon": "tourType",
+          "label": "Tour Type",
+          "value": "guided expedition"
+        },
+        {
+          "icon": "groupSize",
+          "label": "Group Size",
+          "value": "5-7"
+        }
+      ],
+      "showPricing": true,
+      "pricing": {
+        "title": "Pricing",
+        "items": [
+          {
+            "label": "Program Fee",
+            "value": "85,999"
           }
         ],
         "note": "Optional pricing note."
