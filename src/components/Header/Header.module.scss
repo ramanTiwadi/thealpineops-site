@@ -75,24 +75,26 @@
 }
 
 .headerTitle {
-  font-size: 0.9rem;
+  font-family: "Anton", "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   white-space: nowrap;
   @include respond-min(lg) {
-    font-size: 1.25rem;
+    font-size: 24px;
   }
 
   .operations {
     color: red;
-    font-size: 0.94rem;
+    font-size: 21px;
     @include respond-min(lg) {
-      font-size: 1.313rem;
+      font-size: 25px;
     }
   }
 
   @include respond(sm) {
-    font-size: 0.75rem;
+    font-size: 20px;
   }
 }
 
