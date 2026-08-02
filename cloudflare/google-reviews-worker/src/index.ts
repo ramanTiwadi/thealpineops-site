@@ -200,10 +200,7 @@ const handleReviews = async (request: Request, env: Env) => {
       return jsonResponse(origin, {
         ...cached,
         stale: true,
-        warning:
-          error instanceof Error
-            ? error.message
-            : "Google Places API failed; returned stale cache."
+        warning: "Google Places API failed; returned stale cache."
       });
     }
 
