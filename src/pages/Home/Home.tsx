@@ -1,19 +1,11 @@
 import { useEffect, useRef } from "react";
 import Hero from "../../components/Hero/Hero";
-import HomeReviews from "../../components/HomeReviews/HomeReviews";
+import ReviewGrid from "../../components/GoogleReviews/ReviewGrid";
 import baseUrl from "../../constants/baseUrl";
-import reviewsData from "../../data/reviews.json";
-
-type ReviewItem = {
-  name: string;
-  review: string;
-};
 
 const Home = () => {
   const aboutRef = useRef<HTMLElement>(null);
   const reviewsRef = useRef<HTMLElement>(null);
-
-  const reviews = reviewsData as ReviewItem[];
 
   useEffect(() => {
     const prefersReducedMotion = window.matchMedia(
@@ -98,10 +90,9 @@ const Home = () => {
           limits and create legends.
         </p>
       </section>
-      <HomeReviews
+      <ReviewGrid
         sectionRef={reviewsRef}
         className="parallaxSection"
-        reviews={reviews}
       />
     </>
   );

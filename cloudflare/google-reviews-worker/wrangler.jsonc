@@ -1,0 +1,20 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "alpine-ops-google-reviews",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-07-29",
+	"workers_dev": true,
+	"routes": [
+		{
+			"pattern": "reviews.thealpineops.com",
+			"custom_domain": true
+		}
+	],
+	"kv_namespaces": [
+		{
+			"binding": "REVIEWS_CACHE",
+			"id": "a17a2fd16bf643f39f797e2a9d888301",
+			"remote": true
+		}
+	]
+}
