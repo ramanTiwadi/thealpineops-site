@@ -294,6 +294,19 @@
     text-transform: uppercase;
     letter-spacing: 0.09em;
     font-size: 0.78rem;
+
+    &--mountainPro {
+      background: transparent;
+      border: 1px solid $accent;
+      color: $accent;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
   }
 
   &__back {

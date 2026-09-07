@@ -15,3 +15,6 @@ export const findProgramBySlug = (programs: Program[], slug?: string) => {
 
 export const getProgramPath = (slug: string) =>
   `/programs/${normalizeProgramSlug(slug)}`;
+
+export const isMountainProProgram = (program: Program) =>
+  normalizeProgramSlug(program.category) === "mountain pro";

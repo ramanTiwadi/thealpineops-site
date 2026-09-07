@@ -6,6 +6,7 @@ import baseUrl from "../../constants/baseUrl";
 import {
   findProgramBySlug,
   getProgramPath,
+  isMountainProProgram,
   normalizeProgramSlug,
 } from "../../utils/programs";
 
@@ -340,16 +341,29 @@ const ProgramDetail = () => {
               </div>
             )}
 
-          {program.detail.primaryCtaLabel && program.detail.primaryCtaUrl && (
-            <a
-              className="program-detail__cta"
-              href={program.detail.primaryCtaUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {program.detail.primaryCtaLabel}
-            </a>
-          )}
+          {(program.detail.primaryCtaLabel && program.detail.primaryCtaUrl) ||
+          isMountainProProgram(program) ? (
+            <div className="program-detail__actions">
+              {program.detail.primaryCtaLabel && program.detail.primaryCtaUrl && (
+                <a
+                  className="program-detail__cta"
+                  href={program.detail.primaryCtaUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {program.detail.primaryCtaLabel}
+                </a>
+              )}
+              {isMountainProProgram(program) && (
+                <Link
+                  className="program-detail__cta program-detail__cta--mountainPro"
+                  to="/mountain-pro"
+                >
+                  Explore Mountain Pro
+                </Link>
+              )}
+            </div>
+          ) : null}
 
           {/* <Link className="program-detail__back" to="/programs">
             <span className="program-detail__backIcon" aria-hidden="true">

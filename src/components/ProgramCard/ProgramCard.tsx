@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import type { Program } from "../../types/Program";
 import baseUrl from "../../constants/baseUrl";
-import { getProgramPath } from "../../utils/programs";
+import { getProgramPath, isMountainProProgram } from "../../utils/programs";
 
 const ProgramCard = (p: Program) => {
   const statusClass = p.status
@@ -39,6 +39,11 @@ const ProgramCard = (p: Program) => {
           <Link className="cta" to={getProgramPath(p.slug)}>
             View Program
           </Link>
+          {isMountainProProgram(p) && (
+            <Link className="cta cta--mountainPro" to="/mountain-pro">
+              Explore Mountain Pro
+            </Link>
+          )}
         </div>
       </div>
     </article>
