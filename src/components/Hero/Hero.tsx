@@ -62,10 +62,8 @@ const Hero = () => {
       frame = 0;
       const scrollY = window.scrollY || document.documentElement.scrollTop;
       const mediaShift = clamp(scrollY * 0.16, 0, 120);
-      const titleShift = clamp(scrollY * 0.28, 0, 180);
 
       root.style.setProperty("--hero-media-shift", `${mediaShift.toFixed(2)}px`);
-      root.style.setProperty("--hero-title-shift", `${titleShift.toFixed(2)}px`);
     };
 
     const queueUpdate = () => {

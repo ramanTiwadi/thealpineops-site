@@ -88,8 +88,6 @@
     line-height: 1.1;
     color: #fff;
     letter-spacing: 0.02em;
-    transform: translate3d(0, var(--hero-title-shift, 0), 0);
-    will-change: transform;
   }
 }
 
@@ -97,7 +95,6 @@
   .hero-carousel {
     min-height: 460px;
     --hero-media-shift: 0px;
-    --hero-title-shift: 0px;
   }
 
   .heroTitle {
@@ -116,6 +113,5 @@
 @media (prefers-reduced-motion: reduce) {
   .hero-carousel {
     --hero-media-shift: 0px;
-    --hero-title-shift: 0px;
   }
 }
