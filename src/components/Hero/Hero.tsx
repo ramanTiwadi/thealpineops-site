@@ -27,6 +27,14 @@ const Hero = () => {
       })),
     [],
   );
+  const markSlideLoaded = (index: number) => {
+    setLoadedSlideIndexes((prev) => {
+      if (prev.has(index)) return prev;
+      const next = new Set(prev);
+      next.add(index);
+      return next;
+    });
+  };
 
   useLayoutEffect(() => {
     if (!ref.current) return;
@@ -49,28 +57,18 @@ const Hero = () => {
 
   useEffect(() => {
     const id = window.setInterval(() => {
-      setActiveIndex((prev) => (prev + 1) % slides.length);
+      const nextIndex = (activeIndex + 1) % slides.length;
+      markSlideLoaded(nextIndex);
+      setActiveIndex(nextIndex);
     }, 6500);
 
     return () => window.clearInterval(id);
-  }, [slides.length]);
+  }, [activeIndex, slides.length]);
 
   useEffect(() => {
-    setLoadedSlideIndexes((prev) => {
-      if (prev.has(activeIndex)) return prev;
-      const next = new Set(prev);
-      next.add(activeIndex);
-      return next;
-    });
-
     const preloadIndex = (activeIndex + 1) % slides.length;
     const id = window.setTimeout(() => {
-      setLoadedSlideIndexes((prev) => {
-        if (prev.has(preloadIndex)) return prev;
-        const next = new Set(prev);
-        next.add(preloadIndex);
-        return next;
-      });
+      markSlideLoaded(preloadIndex);
     }, 1500);
 
     return () => window.clearTimeout(id);
@@ -111,7 +109,9 @@ const Hero = () => {
   }, []);
 
   const goTo = (index: number) => {
-    setActiveIndex((index + slides.length) % slides.length);
+    const nextIndex = (index + slides.length) % slides.length;
+    markSlideLoaded(nextIndex);
+    setActiveIndex(nextIndex);
   };
   const activeSlide = slides[activeIndex];
 
