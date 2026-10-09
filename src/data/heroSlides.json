@@ -1,18 +1,22 @@
 [
   {
     "image": "/assets/images/hero/fitness-1k9a2441.jpg",
+    "webp": "/assets/images/hero/fitness-1k9a2441.webp",
     "title": "Fitness"
   },
   {
     "image": "/assets/images/hero/training.jpg",
+    "webp": "/assets/images/hero/training.webp",
     "title": "Training"
   },
   {
     "image": "/assets/images/hero/adventure.jpg",
+    "webp": "/assets/images/hero/adventure.webp",
     "title": "Adventure"
   },
   {
     "image": "/assets/images/hero/mentorship.jpg",
+    "webp": "/assets/images/hero/mentorship.webp",
     "title": "Mentorship"
   }
 ]

@@ -5,19 +5,25 @@ import slidesData from "../../data/heroSlides.json";
 
 type HeroSlide = {
   image: string;
+  webp?: string;
   title: string;
 };
+
+const withBaseUrl = (path: string) =>
+  path.startsWith("/") ? `${baseUrl}${path.slice(1)}` : path;
 
 const Hero = () => {
   const ref = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
+  const [loadedSlideIndexes, setLoadedSlideIndexes] = useState<Set<number>>(
+    () => new Set([0]),
+  );
   const slides = useMemo(
     () =>
       (slidesData as HeroSlide[]).map((slide) => ({
         ...slide,
-        image: slide.image.startsWith("/")
-          ? `${baseUrl}${slide.image.slice(1)}`
-          : slide.image,
+        image: withBaseUrl(slide.image),
+        webp: slide.webp ? withBaseUrl(slide.webp) : undefined,
       })),
     [],
   );
@@ -48,6 +54,27 @@ const Hero = () => {
 
     return () => window.clearInterval(id);
   }, [slides.length]);
+
+  useEffect(() => {
+    setLoadedSlideIndexes((prev) => {
+      if (prev.has(activeIndex)) return prev;
+      const next = new Set(prev);
+      next.add(activeIndex);
+      return next;
+    });
+
+    const preloadIndex = (activeIndex + 1) % slides.length;
+    const id = window.setTimeout(() => {
+      setLoadedSlideIndexes((prev) => {
+        if (prev.has(preloadIndex)) return prev;
+        const next = new Set(prev);
+        next.add(preloadIndex);
+        return next;
+      });
+    }, 1500);
+
+    return () => window.clearTimeout(id);
+  }, [activeIndex, slides.length]);
 
   useEffect(() => {
     const root = ref.current;
@@ -99,11 +126,24 @@ const Hero = () => {
           <div
             key={slide.image}
             className={`heroSlide ${index === activeIndex ? "heroSlideActive" : ""}`}
-            style={{ backgroundImage: `url(${slide.image})` }}
             role="group"
             aria-roledescription="slide"
             aria-label={`${index + 1} of ${slides.length}`}
-          />
+          >
+            {loadedSlideIndexes.has(index) ? (
+              <picture className="heroSlidePicture">
+                {slide.webp ? <source srcSet={slide.webp} type="image/webp" /> : null}
+                <img
+                  src={slide.image}
+                  alt=""
+                  className="heroSlideImage"
+                  loading={index === 0 ? "eager" : "lazy"}
+                  fetchPriority={index === 0 ? "high" : "low"}
+                  decoding="async"
+                />
+              </picture>
+            ) : null}
+          </div>
         ))}
         <div className="heroOverlay" />
         <button
